@@ -1,0 +1,184 @@
+/* ------------------------------------------
+   GLOBAL
+------------------------------------------- */
+body {
+    font-family: 'Inter', sans-serif;
+    color: #333;
+}
+
+/* ------------------------------------------
+   HERO SECTION
+------------------------------------------- */
+.hero {
+    background:
+        linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+        url('../images/main-mechanic.webp') center/cover no-repeat;
+    padding: 80px 0;
+    color: white;
+    text-align: center;
+}
+
+.hero h1 {
+    font-weight: 700;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+/* Fix for MOT widget colours */
+.booking-widget-wrapper {
+    background: #ffffff !important;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.booking-widget-iframe {
+    background: transparent !important;
+    filter: none !important;
+    opacity: 1 !important;
+}
+
+/* ------------------------------------------
+   CTA BUTTON
+------------------------------------------- */
+.cta-btn {
+    background: #ffc107;
+    color: #000;
+    font-weight: 600;
+    padding: 14px 32px;
+    border-radius: 6px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.cta-btn:hover {
+    background: #e0a800;
+    color: #000;
+}
+
+/* ------------------------------------------
+   SERVICE CARDS
+------------------------------------------- */
+.service-card {
+    border-radius: 12px;
+    background: #e6f0fc;
+    padding: 30px;
+    transition: 0.25s;
+    border: 1px solid #eee;
+    height: 100%;
+}
+
+.service-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
+/* ------------------------------------------
+   BRANCH BOXES
+------------------------------------------- */
+.branch-box {
+    background: #e6f0fc;
+    padding: 22px;
+    border-radius: 10px;
+    border: 1px solid #e5e5e5;
+}
+
+/* ------------------------------------------
+   LEFT-SIDE BRANCH COLUMN (UPDATED FOR MOBILE)
+------------------------------------------- */
+
+/* Desktop behaviour unchanged */
+.branch-column {
+    /* desktop uses inline top/left */
+}
+
+/* MOBILE VERSION — full width, fixed top, centred */
+@media (max-width: 767px) {
+
+/* CHANGE: mobile branch bar background updated to light blue */
+.branch-column .bg-light {
+    background:#b4d1ed  !important; /* soft light blue #d9ecff*/
+
+}
+
+    /* CHANGE: push page content + navbar down so nothing is covered */
+    body {
+        padding-top: 165px; /* CHANGE: measured natural height */
+    }
+
+    .branch-column {
+        top: 0 !important;       /* CHANGE: move to very top */
+        left: 0 !important;      /* CHANGE: full width */
+        width: 100% !important;  /* CHANGE: full width */
+        padding: 0 10px;
+        z-index: 2000;           /* CHANGE: above navbar */
+    }
+
+    .branch-column .bg-light {
+        width: 100%;
+        border-radius: 0;        /* CHANGE: cleaner mobile look */
+        padding: 15px 0;         /* CHANGE: balanced spacing */
+        text-align: center;      /* CHANGE: centre all text */
+    }
+}
+
+/* ------------------------------------------
+   FOOTER
+------------------------------------------- */
+footer {
+    background: #111;
+}
+
+/* ------------------------------------------
+   ULTRA-SMALL SCREEN OPTIMISATION (<400px)
+------------------------------------------- */
+@media (max-width: 400px) {
+
+    .hero {
+        padding: 50px 0;
+    }
+
+    .hero h1 {
+        font-size: 1.8rem;
+        line-height: 1.2;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .cta-btn {
+        width: 100%;
+        padding: 14px;
+        font-size: 1rem;
+    }
+
+    .service-card {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .service-card h4 {
+        font-size: 1.1rem;
+    }
+
+    .service-card p {
+        font-size: 0.95rem;
+    }
+
+    .branch-box {
+        padding: 16px;
+        font-size: 0.95rem;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    /* GLOBAL SPACING */
+    section {
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
+    }
+} /* ← THIS WAS MISSING — now fixed */

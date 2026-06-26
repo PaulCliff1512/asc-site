@@ -1,0 +1,33 @@
+		/* Booking widget wrapper */
+		.booking-widget-wrapper {
+			max-width: 800px;
+			margin: 0 auto;
+		}
+
+		/* Responsive iframe */
+		.booking-widget-iframe {
+			width: 100%;
+			min-height: 260px;
+			border: none;
+		}
+
+		/* Light blue background for the whole section */
+		.booking-bg {
+			background-color: #e8f4ff; /* soft ASC‑friendly light blue */
+		}
+
+		/* Small screens <400px */
+		@media (max-width: 400px) {
+			.booking-widget-iframe {
+				min-height: 320px; /* gives breathing room on tiny screens */
+			}
+
+			#tag {
+				padding: 0 10px; /* prevents edge-to-edge squeeze */
+			}
+
+			.booking-widget-wrapper h2,
+			h2.fw-bold {
+				font-size: 1.4rem; /* avoids oversized headings on tiny screens */
+			}
+		}
