@@ -10,12 +10,12 @@
     <meta name="description" content="DVSA-approved Class 4 & 7 MOT testing across St Helens, Haydock, Widnes, Prescot and Ormskirk. Fast appointments, honest results and on-site repairs. Book your MOT today.">
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://autosafetycentre.co.uk/mot.html">
+<link rel="canonical" href="https://autosafetycentre.co.uk/mot.php">
 
     <!-- OpenGraph -->
     <meta property="og:title" content="Class 4 & 7 MOT Testing | DVSA‑Approved | Auto Safety Centre">
     <meta property="og:description" content="Fast, reliable MOT testing with DVSA-approved testers. Book your MOT at any of our North West branches.">
-    <meta property="og:url" content="https://autosafetycentre.co.uk/mot.html">
+<meta property="og:url" content="https://autosafetycentre.co.uk/mot.php">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Auto Safety Centre">
 
@@ -67,7 +67,7 @@
         "Ormskirk"
       ],
       "description": "DVSA-approved MOT testing with fast appointments, honest results and on-site repairs.",
-      "url": "https://autosafetycentre.co.uk/mot.html"
+  "url": "https://autosafetycentre.co.uk/mot.php"
     }
     </script>
 
@@ -107,6 +107,7 @@
 </head>
 
 <body>
+<!-- Updated internal and metadata links from .html to .php so links match the project files. -->
 
 <!-- LEFT COLUMN -->
 <div class="position-fixed branch-column" style="top:140px; left:10px; z-index:1000;">
@@ -124,7 +125,7 @@
 <!-- NAVBAR -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
     <div class="container">
-        <a class="navbar-brand fw-bold" href="index.html">Auto Safety Centre</a>
+        <a class="navbar-brand fw-bold" href="index.php">Auto Safety Centre</a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
             <span class="navbar-toggler-icon"></span>
@@ -132,10 +133,10 @@
 
         <div class="collapse navbar-collapse" id="navMenu">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link active" href="mot.html">MOT</a></li>
-                <li class="nav-item"><a class="nav-link" href="tyres.html">Tyres</a></li>
-                <li class="nav-item"><a class="nav-link" href="servicing.html">Servicing</a></li>
-                <li class="nav-item"><a class="nav-link" href="repairs.html">Repairs</a></li>
+                <li class="nav-item"><a class="nav-link active" href="mot.php">MOT</a></li>
+                <li class="nav-item"><a class="nav-link" href="tyres.php">Tyres</a></li>
+                <li class="nav-item"><a class="nav-link" href="servicing.php">Servicing</a></li>
+                <li class="nav-item"><a class="nav-link" href="repairs.php">Repairs</a></li>
 
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="depotsDropdown" role="button" data-bs-toggle="dropdown">

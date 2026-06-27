@@ -9,11 +9,11 @@
 
     <meta name="description" content="Tyres supplied and fitted across St Helens, Haydock, Widnes, Prescot and Ormskirk. Budget, mid‑range and premium tyres with fast fitting, wheel balancing and puncture repairs.">
 
-    <link rel="canonical" href="https://autosafetycentre.co.uk/tyres.html">
+<link rel="canonical" href="https://autosafetycentre.co.uk/tyres.php">
 
     <meta property="og:title" content="Tyres Supplied & Fitted | Auto Safety Centre">
     <meta property="og:description" content="Budget, mid‑range and premium tyres for all makes and models. Fast fitting, wheel balancing and puncture repairs.">
-    <meta property="og:url" content="https://autosafetycentre.co.uk/tyres.html">
+<meta property="og:url" content="https://autosafetycentre.co.uk/tyres.php">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Auto Safety Centre">
 
@@ -62,7 +62,7 @@
         "Ormskirk"
       ],
       "description": "Tyres supplied and fitted including budget, mid-range, premium, winter, all-season and 4x4 tyres.",
-      "url": "https://autosafetycentre.co.uk/tyres.html"
+  "url": "https://autosafetycentre.co.uk/tyres.php"
     }
     </script>
 
@@ -119,6 +119,7 @@
 </head>
 
 <body>
+<!-- Updated internal and metadata links from .html to .php so links match the project files. -->
 
 <!-- LEFT COLUMN -->
 <div class="position-fixed branch-column" style="top:140px; left:10px; z-index:1000;">
@@ -136,7 +137,7 @@
 <!-- NAVBAR -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
     <div class="container">
-        <a class="navbar-brand fw-bold" href="index.html">Auto Safety Centre</a>
+        <a class="navbar-brand fw-bold" href="index.php">Auto Safety Centre</a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
             <span class="navbar-toggler-icon"></span>
@@ -144,10 +145,10 @@
 
         <div class="collapse navbar-collapse" id="navMenu">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="mot.html">MOT</a></li>
-                <li class="nav-item"><a class="nav-link active" href="tyres.html">Tyres</a></li>
-                <li class="nav-item"><a class="nav-link" href="servicing.html">Servicing</a></li>
-                <li class="nav-item"><a class="nav-link" href="repairs.html">Repairs</a></li>
+                <li class="nav-item"><a class="nav-link" href="mot.php">MOT</a></li>
+                <li class="nav-item"><a class="nav-link active" href="tyres.php">Tyres</a></li>
+                <li class="nav-item"><a class="nav-link" href="servicing.php">Servicing</a></li>
+                <li class="nav-item"><a class="nav-link" href="repairs.php">Repairs</a></li>
 
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="depotsDropdown" role="button" data-bs-toggle="dropdown">
@@ -264,27 +265,27 @@ style="background-image:
         <div class="d-flex justify-content-center align-items-start flex-wrap gap-5">
 
             <div class="text-center">
-                <a href="sthelens.html" class="text-dark fw-semibold fs-5 d-block">St Helens</a>
+                <a href="sthelens.php" class="text-dark fw-semibold fs-5 d-block">St Helens</a>
                 <a href="tel:01744300104" class="d-block small text-muted">01744 300104</a>
             </div>
 
             <div class="text-center">
-                <a href="haydock.html" class="text-dark fw-semibold fs-5 d-block">Haydock</a>
+                <a href="haydock.php" class="text-dark fw-semibold fs-5 d-block">Haydock</a>
                 <a href="tel:01744300103" class="d-block small text-muted">01744 300103</a>
             </div>
 
             <div class="text-center">
-                <a href="widnes.html" class="text-dark fw-semibold fs-5 d-block">Widnes</a>
+                <a href="widnes.php" class="text-dark fw-semibold fs-5 d-block">Widnes</a>
                 <a href="tel:01515320201" class="d-block small text-muted">0151 532 0201</a>
             </div>
 
             <div class="text-center">
-                <a href="prescot.html" class="text-dark fw-semibold fs-5 d-block">Prescot</a>
+                <a href="prescot.php" class="text-dark fw-semibold fs-5 d-block">Prescot</a>
                 <a href="tel:01515320532" class="d-block small text-muted">0151 532 0532</a>
             </div>
 
             <div class="text-center">
-                <a href="ormskirk.html" class="text-dark fw-semibold fs-5 d-block">Ormskirk</a>
+                <a href="ormskirk.php" class="text-dark fw-semibold fs-5 d-block">Ormskirk</a>
                 <a href="tel:01695310106" class="d-block small text-muted">01695 310106</a>
             </div>
 

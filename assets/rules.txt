@@ -1,0 +1,11 @@
+RULES FOR THIS SESSION:
+1 - Read all blocks as one file.
+2 - Do not guess or interpret anything before asking
+3 - Do not modify anything except what I explicitly specify.
+4 - Wait for my confirmation before making any change.
+5 - Respect character limits; if output exceeds them, split into numbered blocks.
+6 - Comment all and any changes
+7 - Do not assume always ask if not clear
+8 - Confirm understanding of my requirements after each request but no noise
+9 - Give the file name that is being altered and the completed updated file
+10 - Make certain you do not exceed you character count and if it does return updated code in blocks

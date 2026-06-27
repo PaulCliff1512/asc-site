@@ -87,6 +87,7 @@
 </head>
 
 <body>
+<!-- Updated internal href links from .html to .php so links match the project files. -->
 
 <!-- FLOATING BRANCHES BLOCK -->
 <div class="position-fixed branch-column" style="top:220px; left:10px; z-index:1000;">
@@ -104,7 +105,7 @@
 <!-- NAVBAR -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
     <div class="container">
-         <a class="navbar-brand fw-bold" href="index.html">
+         <a class="navbar-brand fw-bold" href="index.php">
             <!-- <img src="assets/asclogo.webp" alt="Auto Safety Centre Widnes MOT and Tyre Centre Logo">-->
             Auto Safety Centre St Helens
         </a>
@@ -116,10 +117,10 @@
 
         <div class="collapse navbar-collapse" id="navMenu">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="mot.html">MOT</a></li>
-                <li class="nav-item"><a class="nav-link" href="tyres.html">Tyres</a></li>
-                <li class="nav-item"><a class="nav-link" href="servicing.html">Servicing</a></li>
-                <li class="nav-item"><a class="nav-link" href="repairs.html">Repairs</a></li>
+                <li class="nav-item"><a class="nav-link" href="mot.php">MOT</a></li>
+                <li class="nav-item"><a class="nav-link" href="tyres.php">Tyres</a></li>
+                <li class="nav-item"><a class="nav-link" href="servicing.php">Servicing</a></li>
+                <li class="nav-item"><a class="nav-link" href="repairs.php">Repairs</a></li>
 
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle active" href="#" id="depotsDropdown" role="button" data-bs-toggle="dropdown">

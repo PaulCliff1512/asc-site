@@ -36,6 +36,7 @@
 </head>
 
 <body>
+<!-- Updated internal href links from .html to .php so links match the project files. -->
 
 <!-- LEFT‑SIDE BRANCH COLUMN -->
 <!-- CHANGE: removed d-none d-md-block so it becomes visible on mobile -->
@@ -55,7 +56,7 @@
 <!-- NAVBAR -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
     <div class="container">
-        <a class="navbar-brand fw-bold" href="index.html">Auto Safety Centre</a>
+        <a class="navbar-brand fw-bold" href="index.php">Auto Safety Centre</a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
             <span class="navbar-toggler-icon"></span>
@@ -63,10 +64,10 @@
 
         <div class="collapse navbar-collapse" id="navMenu">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="mot.html">MOT</a></li>
-                <li class="nav-item"><a class="nav-link" href="tyres.html">Tyres</a></li>
-                <li class="nav-item"><a class="nav-link" href="servicing.html">Servicing</a></li>
-                <li class="nav-item"><a class="nav-link" href="repairs.html">Repairs</a></li>
+                <li class="nav-item"><a class="nav-link" href="mot.php">MOT</a></li>
+                <li class="nav-item"><a class="nav-link" href="tyres.php">Tyres</a></li>
+                <li class="nav-item"><a class="nav-link" href="servicing.php">Servicing</a></li>
+                <li class="nav-item"><a class="nav-link" href="repairs.php">Repairs</a></li>
 
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="depotsDropdown" role="button" data-bs-toggle="dropdown">
@@ -98,7 +99,7 @@
         <p class="lead mt-3">
             Every Auto Safety Centre branch serves drivers within a 3–4 mile radius of its location, ensuring fast, convenient and truly local garage services wherever you are in Merseyside.
         </p>
-        <a href="mot.html" class="cta-btn mt-4">Book Your MOT and Service</a>
+        <a href="mot.php" class="cta-btn mt-4">Book Your MOT and Service</a>
     </div>
 </section>
 
@@ -130,32 +131,32 @@
             <div class="col-md-3">
                 <div class="service-card">
                     <h4 class="fw-bold">MOT Testing</h4>
-                    <p>DVSA‑approved Class 4 <a href="mot.html">MOT tests</a> with fast appointments and clear results.</p>
-                    <a href="mot.html" class="btn btn-outline-dark">Book MOT</a>
+                    <p>DVSA‑approved Class 4 <a href="mot.php">MOT tests</a> with fast appointments and clear results.</p>
+                    <a href="mot.php" class="btn btn-outline-dark">Book MOT</a>
                 </div>
             </div>
 
             <div class="col-md-3">
                 <div class="service-card">
                     <h4 class="fw-bold">Tyres</h4>
-                    <p><a href="tyres.html">Budget, mid‑range and premium tyres</a> supplied and fitted.</p>
-                    <a href="tyres.html" class="btn btn-outline-dark">View Tyres</a>
+                    <p><a href="tyres.php">Budget, mid‑range and premium tyres</a> supplied and fitted.</p>
+                    <a href="tyres.php" class="btn btn-outline-dark">View Tyres</a>
                 </div>
             </div>
 
             <div class="col-md-3">
                 <div class="service-card">
                     <h4 class="fw-bold">Car Servicing</h4>
-                    <p><a href="servicing.html">Interim and full servicing</a> for all makes and models.</p>
-                    <a href="servicing.html" class="btn btn-outline-dark">Book Service</a>
+                    <p><a href="servicing.php">Interim and full servicing</a> for all makes and models.</p>
+                    <a href="servicing.php" class="btn btn-outline-dark">Book Service</a>
                 </div>
             </div>
 
             <div class="col-md-3">
                 <div class="service-card">
                     <h4 class="fw-bold">Repairs & Diagnostics</h4>
-                    <p><a href="repairs.html">Brakes, exhausts, suspension, batteries and diagnostics</a> with no hidden charges.</p>
-                    <a href="repairs.html" class="btn btn-outline-dark">View Repairs</a>
+                    <p><a href="repairs.php">Brakes, exhausts, suspension, batteries and diagnostics</a> with no hidden charges.</p>
+                    <a href="repairs.php" class="btn btn-outline-dark">View Repairs</a>
                 </div>
             </div>
 

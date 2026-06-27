@@ -11,12 +11,12 @@
     <meta name="description" content="Expert car repairs across St Helens, Haydock, Widnes, Prescot and Ormskirk. Brakes, suspension, diagnostics, exhausts, clutches, batteries and more. Professional technicians and high‑quality parts.">
 
     <!-- Canonical URL -->
-    <link rel="canonical" href="https://autosafetycentre.co.uk/repairs.html">
+<link rel="canonical" href="https://autosafetycentre.co.uk/repairs.php">
 
     <!-- OpenGraph -->
     <meta property="og:title" content="Car Repairs & Diagnostics | Auto Safety Centre">
     <meta property="og:description" content="Brakes, suspension, diagnostics, exhausts, clutches, batteries and more. Expert repairs across all Auto Safety Centre branches.">
-    <meta property="og:url" content="https://autosafetycentre.co.uk/repairs.html">
+<meta property="og:url" content="https://autosafetycentre.co.uk/repairs.php">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Auto Safety Centre">
 
@@ -50,12 +50,13 @@
         "Ormskirk"
       ],
       "description": "Car repairs including brakes, suspension, diagnostics, exhausts, clutches, batteries and more.",
-      "url": "https://autosafetycentre.co.uk/repairs.html"
+  "url": "https://autosafetycentre.co.uk/repairs.php"
     }
     </script>
 </head>
 
 <body>
+<!-- Updated internal and metadata links from .html to .php so links match the project files. -->
 
 <!-- LEFT‑SIDE BRANCH COLUMN -->
 <div class="position-fixed branch-column" style="top:140px; left:10px; z-index:1000;">
@@ -73,7 +74,7 @@
 <!-- NAVBAR -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
     <div class="container">
-        <a class="navbar-brand fw-bold" href="index.html">Auto Safety Centre</a>
+        <a class="navbar-brand fw-bold" href="index.php">Auto Safety Centre</a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
             <span class="navbar-toggler-icon"></span>
@@ -81,10 +82,10 @@
 
         <div class="collapse navbar-collapse" id="navMenu">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="mot.html">MOT</a></li>
-                <li class="nav-item"><a class="nav-link" href="tyres.html">Tyres</a></li>
-                <li class="nav-item"><a class="nav-link" href="servicing.html">Servicing</a></li>
-                <li class="nav-item"><a class="nav-link active" href="repairs.html">Repairs</a></li>
+                <li class="nav-item"><a class="nav-link" href="mot.php">MOT</a></li>
+                <li class="nav-item"><a class="nav-link" href="tyres.php">Tyres</a></li>
+                <li class="nav-item"><a class="nav-link" href="servicing.php">Servicing</a></li>
+                <li class="nav-item"><a class="nav-link active" href="repairs.php">Repairs</a></li>
 
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="depotsDropdown" role="button" data-bs-toggle="dropdown">

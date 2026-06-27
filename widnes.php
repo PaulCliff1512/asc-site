@@ -10,12 +10,12 @@
 
     <meta name="description" content="Auto Safety Centre Widnes (WA8). DVSA-approved MOT testing, Continental tyres, servicing, diagnostics and repairs. Serving Widnes, Runcorn, Halton and surrounding areas. Book MOT Widnes today.">
 
-    <link rel="canonical" href="https://autosafetycentre.com/widnes.html">
+<link rel="canonical" href="https://autosafetycentre.com/widnes.php">
 
     <!-- Open Graph -->
     <meta property="og:title" content="MOT Widnes | Auto Safety Centre WA8">
     <meta property="og:description" content="DVSA-approved MOTs, Continental tyres, servicing and repairs at Auto Safety Centre Widnes. Covering all areas within 5 miles of WA8.">
-    <meta property="og:url" content="https://autosafetycentre.com/widnes.html">
+<meta property="og:url" content="https://autosafetycentre.com/widnes.php">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Auto Safety Centre">
     <meta property="og:image" content="https://autosafetycentre.com/assets/og-widnes.jpg">
@@ -58,7 +58,7 @@
         "Farnworth"
       ],
       "hasMap": "https://www.google.com/maps?q=Auto+Safety+Centre+Widnes",
-      "url": "https://autosafetycentre.com/widnes.html",
+    "url": "https://autosafetycentre.com/widnes.php",
       "telephone": "0151 532 0201",
       "openingHours": [
         "Mo-Fr 08:30-17:30",
@@ -79,6 +79,7 @@
 </head>
 
 <body>
+<!-- Updated internal and metadata links from .html to .php so links match the project files. -->
 
 <!-- FLOATING BRANCHES BLOCK -->
 <div class="position-fixed branch-column" style="top:220px; left:10px; z-index:1000;">
@@ -96,7 +97,7 @@
 <!-- NAVBAR -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
     <div class="container">
-        <a class="navbar-brand fw-bold" href="index.html">
+        <a class="navbar-brand fw-bold" href="index.php">
             <!-- <img src="assets/asclogo.webp" alt="Auto Safety Centre Widnes MOT and Tyre Centre Logo">-->
             Auto Safety Centre Widnes
         </a>
@@ -107,10 +108,10 @@
 
         <div class="collapse navbar-collapse" id="navMenu">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="mot.html">MOT</a></li>
-                <li class="nav-item"><a class="nav-link" href="tyres.html">Tyres</a></li>
-                <li class="nav-item"><a class="nav-link" href="servicing.html">Servicing</a></li>
-                <li class="nav-item"><a class="nav-link" href="repairs.html">Repairs</a></li>
+                <li class="nav-item"><a class="nav-link" href="mot.php">MOT</a></li>
+                <li class="nav-item"><a class="nav-link" href="tyres.php">Tyres</a></li>
+                <li class="nav-item"><a class="nav-link" href="servicing.php">Servicing</a></li>
+                <li class="nav-item"><a class="nav-link" href="repairs.php">Repairs</a></li>
 
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle active" href="#" id="depotsDropdown" role="button" data-bs-toggle="dropdown">
@@ -157,10 +158,10 @@
         <h2 class="fw-bold text-center mb-4">Your Local MOT, Tyre & Servicing Centre in Widnes</h2>
         <p class="lead text-center">
             Auto Safety Centre Widnes provides DVSA‑approved MOT testing, expert tyre fitting with premium Continental tyres
-            (see our full <a href="tyres.html">tyre services</a>), full vehicle servicing and reliable repairs for all makes and models.
+            (see our full <a href="tyres.php">tyre services</a>), full vehicle servicing and reliable repairs for all makes and models.
             We also carry out all key MOT safety checks including brakes, suspension, emissions and lighting.
             Located in Widnes (WA8), we support drivers across Widnes, Runcorn, Halton and all surrounding areas within a 5‑mile radius.
-            You can also visit our nearby <a href="haydock.html">Haydock depot</a> or our flagship <a href="sthelens.html">St Helens depot</a>.
+            You can also visit our nearby <a href="haydock.php">Haydock depot</a> or our flagship <a href="sthelens.php">St Helens depot</a>.
         </p>
     </div>
 </section>
@@ -251,7 +252,7 @@
                         We carry out DVSA-approved MOT tests for Class 4 vehicles including cars and small vans.
                         Our MOT bay provides fast, accurate inspections with clear guidance on advisories or failures.
                     </p>
-                    <p><a href="mot.html">Learn more about MOT testing</a></p>
+                    <p><a href="mot.php">Learn more about MOT testing</a></p>
                 </div>
             </div>
 
@@ -263,7 +264,7 @@
                         We supply and fit premium, mid-range and budget tyres including Continental,
                         ensuring excellent grip, performance and safety in all conditions.
                     </p>
-                    <p><a href="tyres.html">View our tyre services</a></p>
+                    <p><a href="tyres.php">View our tyre services</a></p>
                 </div>
             </div>
 
@@ -275,7 +276,7 @@
                         Interim, full and major servicing using high-quality parts and manufacturer-approved oils.
                         Regular servicing improves reliability, fuel efficiency and long-term engine health.
                     </p>
-                    <p><a href="servicing.html">Servicing options</a></p>
+                    <p><a href="servicing.php">Servicing options</a></p>
                 </div>
             </div>
 
@@ -298,7 +299,7 @@
                         We carry out repairs on brakes, suspension, exhausts, clutches, batteries and more.
                         All work is completed by experienced technicians using quality components.
                     </p>
-                    <p><a href="repairs.html">Vehicle repairs</a></p>
+                    <p><a href="repairs.php">Vehicle repairs</a></p>
                 </div>
             </div>
 
@@ -553,11 +554,11 @@
         <p class="mb-1">© Auto Safety Centre 2025</p>
 
         <p class="small">
-            <a href="sthelens.html" class="text-white">St Helens</a> |
-            <a href="haydock.html" class="text-white">Haydock</a> |
-            <a href="widnes.html" class="text-white">Widnes</a> |
-            <a href="prescot.html" class="text-white">Prescot</a> |
-            <a href="ormskirk.html" class="text-white">Ormskirk</a>
+            <a href="sthelens.php" class="text-white">St Helens</a> |
+            <a href="haydock.php" class="text-white">Haydock</a> |
+            <a href="widnes.php" class="text-white">Widnes</a> |
+            <a href="prescot.php" class="text-white">Prescot</a> |
+            <a href="ormskirk.php" class="text-white">Ormskirk</a>
         </p>
     </div>
 </footer>

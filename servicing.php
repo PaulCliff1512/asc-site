@@ -10,12 +10,12 @@
     <meta name="description" content="Professional car servicing across St Helens, Haydock, Widnes, Prescot and Ormskirk. Interim, full and major services for all makes and models. High‑quality parts, honest pricing and expert technicians.">
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://autosafetycentre.co.uk/servicing.html">
+<link rel="canonical" href="https://autosafetycentre.co.uk/servicing.php">
 
     <!-- OpenGraph -->
     <meta property="og:title" content="Car Servicing | Interim, Full & Major | Auto Safety Centre">
     <meta property="og:description" content="Interim, full and major servicing for all makes and models. Expert technicians and quality parts across all Auto Safety Centre branches.">
-    <meta property="og:url" content="https://autosafetycentre.co.uk/servicing.html">
+<meta property="og:url" content="https://autosafetycentre.co.uk/servicing.php">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Auto Safety Centre">
 
@@ -63,7 +63,7 @@
         "Ormskirk"
       ],
       "description": "Car servicing including interim, full and major services using high-quality parts and approved methods.",
-      "url": "https://autosafetycentre.co.uk/servicing.html"
+  "url": "https://autosafetycentre.co.uk/servicing.php"
     }
     </script>
 
@@ -103,6 +103,7 @@
 </head>
 
 <body>
+<!-- Updated internal and metadata links from .html to .php so links match the project files. -->
 
 <!-- LEFT COLUMN -->
 <div class="position-fixed branch-column" style="top:140px; left:10px; z-index:1000;">
@@ -120,7 +121,7 @@
 <!-- NAVBAR -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
     <div class="container">
-        <a class="navbar-brand fw-bold" href="index.html">Auto Safety Centre</a>
+        <a class="navbar-brand fw-bold" href="index.php">Auto Safety Centre</a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
             <span class="navbar-toggler-icon"></span>
@@ -128,10 +129,10 @@
 
         <div class="collapse navbar-collapse" id="navMenu">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="mot.html">MOT</a></li>
-                <li class="nav-item"><a class="nav-link" href="tyres.html">Tyres</a></li>
-                <li class="nav-item"><a class="nav-link active" href="servicing.html">Servicing</a></li>
-                <li class="nav-item"><a class="nav-link" href="repairs.html">Repairs</a></li>
+                <li class="nav-item"><a class="nav-link" href="mot.php">MOT</a></li>
+                <li class="nav-item"><a class="nav-link" href="tyres.php">Tyres</a></li>
+                <li class="nav-item"><a class="nav-link active" href="servicing.php">Servicing</a></li>
+                <li class="nav-item"><a class="nav-link" href="repairs.php">Repairs</a></li>
 
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="depotsDropdown" role="button" data-bs-toggle="dropdown">
