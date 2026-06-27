@@ -5,54 +5,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Tyres Supplied & Fitted | Budget, Mid‑Range & Premium | Auto Safety Centre</title>
+    <title>Tyres Supplied & Fitted Near You | Auto Safety Centre</title>
 
-    <meta name="description" content="Tyres supplied and fitted across St Helens, Haydock, Widnes, Prescot and Ormskirk. Budget, mid‑range and premium tyres with fast fitting, wheel balancing and puncture repairs.">
+    <meta name="description" content="Tyres supplied and fitted in St Helens, Haydock, Widnes, Prescot and Ormskirk. Budget, mid-range and premium tyres with fast fitting.">
 
-<link rel="canonical" href="https://autosafetycentre.co.uk/tyres.php">
+    <link rel="canonical" href="https://autosafetycentre.co.uk/tyres.php">
 
     <meta property="og:title" content="Tyres Supplied & Fitted | Auto Safety Centre">
-    <meta property="og:description" content="Budget, mid‑range and premium tyres for all makes and models. Fast fitting, wheel balancing and puncture repairs.">
-<meta property="og:url" content="https://autosafetycentre.co.uk/tyres.php">
+    <meta property="og:description" content="Budget, mid-range and premium tyres for all makes and models. Fast fitting, wheel balancing and puncture repairs.">
+    <meta property="og:url" content="https://autosafetycentre.co.uk/tyres.php">
     <meta property="og:type" content="website">
+    <meta property="og:image" content="https://autosafetycentre.co.uk/assets/og-home.jpg">
     <meta property="og:site_name" content="Auto Safety Centre">
-
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Tyres Supplied & Fitted | Auto Safety Centre">
-    <meta name="twitter:description" content="Huge range of tyres with fast fitting and expert advice.">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
-    <!-- Tyre Schema -->
+    <!-- Schema: tyre supply and fitting page across all Auto Safety Centre branches. -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "AutoRepair",
-      "name": "Auto Safety Centre - Tyre Services",
-      "image": "https://autosafetycentre.co.uk/images/Mechanic1.webp",
-      "serviceType": [
-        "Tyre Supply",
-        "Tyre Fitting",
-        "Wheel Balancing",
-        "Puncture Repairs",
-        "Winter Tyres",
-        "All-Season Tyres",
-        "4x4 Tyres",
-        "Van Tyres"
-      ],
-      "makesOffer": [
-        { "@type": "Offer", "itemOffered": "Budget Tyres" },
-        { "@type": "Offer", "itemOffered": "Mid-Range Tyres" },
-        { "@type": "Offer", "itemOffered": "Premium Tyres" }
-      ],
+      "@type": "Service",
+      "name": "Tyres Supplied and Fitted",
+      "url": "https://autosafetycentre.co.uk/tyres.php",
+      "image": "https://autosafetycentre.co.uk/images/mechanic1.webp",
+      "description": "Tyres supplied and fitted across St Helens, Haydock, Widnes, Prescot and Ormskirk, including budget, mid-range, premium, winter, all-season, 4x4 and van tyres.",
       "provider": {
         "@type": "Organization",
         "name": "Auto Safety Centre",
-        "sameAs": [
-          "https://www.facebook.com/autosafetycentre",
-          "https://www.instagram.com/autosafetycentre"
-        ]
+        "url": "https://autosafetycentre.co.uk/"
       },
       "areaServed": [
         "St Helens",
@@ -61,24 +42,93 @@
         "Prescot",
         "Ormskirk"
       ],
-      "description": "Tyres supplied and fitted including budget, mid-range, premium, winter, all-season and 4x4 tyres.",
-  "url": "https://autosafetycentre.co.uk/tyres.php"
-    }
-    </script>
-
-    <!-- Tyre Brand Offer Schema -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "AutoRepair",
-      "name": "Auto Safety Centre - Tyre Brands",
-      "makesOffer": [
-        { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Michelin Tyres" }},
-        { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Pirelli Tyres" }},
-        { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Continental Tyres" }},
-        { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Bridgestone Tyres" }},
-        { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Goodyear Tyres" }}
-      ]
+      "offers": {
+        "@type": "OfferCatalog",
+        "name": "Tyre Services and Brands",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "Budget Tyres",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "Budget Tyres"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Mid-Range Tyres",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "Mid-Range Tyres"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Premium Tyres",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "Premium Tyres"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Wheel Balancing",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Wheel Balancing"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Puncture Repairs",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Puncture Repairs"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Michelin Tyres",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "Michelin Tyres"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Pirelli Tyres",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "Pirelli Tyres"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Continental Tyres",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "Continental Tyres"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Bridgestone Tyres",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "Bridgestone Tyres"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Goodyear Tyres",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "Goodyear Tyres"
+            }
+          }
+        ]
+      },
+      "mainEntityOfPage": "https://autosafetycentre.co.uk/tyres.php"
     }
     </script>
 
@@ -106,7 +156,7 @@
         },
         {
           "@type": "Question",
-          "name": "What’s the difference between budget and premium tyres?",
+          "name": "What's the difference between budget and premium tyres?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Premium tyres offer better grip, fuel efficiency and longevity, while budget tyres provide reliable performance at a lower cost."
@@ -119,16 +169,9 @@
 </head>
 
 <body>
-<!-- Updated internal and metadata links from .html to .php so links match the project files. -->
-<!-- Updated booking buttons to link to booking.php so customers open the Book My Garage widget page. -->
-<!-- Updated tyre availability buttons to jump to the depot phone number section for direct stock enquiries. -->
-<!-- Updated tyre availability button text to clearly tell customers to call a depot. -->
-<!-- Removed the hero tyre availability button and added a depot call title above the main tyre content. -->
-
 <!-- LEFT COLUMN -->
 <div class="position-fixed branch-column" style="top:140px; left:10px; z-index:1000;">
     <div class="bg-light p-3 shadow-sm rounded small text-center">
-        <!-- CHANGE: text-center added for mobile centering -->
         <strong>Branches</strong><br>
         <a href="tel:01744300104" class="text-dark d-block">St Helens: 01744 300104</a>
         <a href="tel:01744300103" class="text-dark d-block">Haydock: 01744 300103</a>
@@ -178,7 +221,7 @@ style="background-image:
         url('images/Mechanic1.webp');">
     <div class="container">
         <h1 class="display-4 fw-bold">Tyres Supplied & Fitted</h1>
-        <p class="lead mt-3">Budget, mid‑range and premium tyres for all makes and models</p>
+        <p class="lead mt-3">Budget, mid-range and premium tyres for all makes and models</p>
     </div>
 </section>
 
@@ -188,7 +231,7 @@ style="background-image:
         <h2 class="fw-bold text-center mb-3">Call the Depot for the best Tyre prices now</h2>
         <h2 class="fw-bold text-center mb-4">Quality Tyres at Competitive Prices</h2>
         <p class="lead text-center">
-            We supply and fit tyres for every budget and driving style. From premium performance tyres to reliable mid‑range options and affordable budget tyres, our technicians help you choose the perfect fit.
+            We supply and fit tyres for every budget and driving style. From premium performance tyres to reliable mid-range options and affordable budget tyres, our technicians help you choose the perfect fit.
         </p>
         <p class="text-center">
             Fast fitting, wheel balancing, puncture repairs and tracking available across all branches.
@@ -206,11 +249,11 @@ style="background-image:
 
         <div class="row g-4">
             <div class="col-md-4"><div class="service-card"><h4 class="fw-bold">Budget Tyres</h4><p>Affordable and reliable tyres ideal for everyday driving.</p></div></div>
-            <div class="col-md-4"><div class="service-card"><h4 class="fw-bold">Mid‑Range Tyres</h4><p>Great performance and durability at a sensible price.</p></div></div>
+            <div class="col-md-4"><div class="service-card"><h4 class="fw-bold">Mid-Range Tyres</h4><p>Great performance and durability at a sensible price.</p></div></div>
             <div class="col-md-4"><div class="service-card"><h4 class="fw-bold">Premium Tyres</h4><p>Top brands offering maximum grip, comfort and longevity.</p></div></div>
             <div class="col-md-4"><div class="service-card"><h4 class="fw-bold">Winter Tyres</h4><p>Enhanced traction and safety in cold, icy and snowy conditions.</p></div></div>
-            <div class="col-md-4"><div class="service-card"><h4 class="fw-bold">All‑Season Tyres</h4><p>Year‑round performance without the need to switch tyres.</p></div></div>
-            <div class="col-md-4"><div class="service-card"><h4 class="fw-bold">4x4 & Van Tyres</h4><p>Durable tyres designed for heavier loads and off‑road use.</p></div></div>
+            <div class="col-md-4"><div class="service-card"><h4 class="fw-bold">All-Season Tyres</h4><p>Year-round performance without the need to switch tyres.</p></div></div>
+            <div class="col-md-4"><div class="service-card"><h4 class="fw-bold">4x4 & Van Tyres</h4><p>Durable tyres designed for heavier loads and off-road use.</p></div></div>
         </div>
     </div>
 </section>
@@ -307,22 +350,22 @@ style="background-image:
 
             <div class="col-md-4">
                 <div class="p-4 bg-white shadow-sm rounded">
-                    <p class="mb-2">“Great service, tyres fitted the same day and at a brilliant price.”</p>
-                    <strong>— Sarah, St Helens</strong>
+                    <p class="mb-2">"Great service, tyres fitted the same day and at a brilliant price."</p>
+                    <strong>- Sarah, St Helens</strong>
                 </div>
             </div>
 
             <div class="col-md-4">
                 <div class="p-4 bg-white shadow-sm rounded">
-                    <p class="mb-2">“Fast, friendly and professional. Wouldn’t go anywhere else for tyres.”</p>
-                    <strong>— Mark, Widnes</strong>
+                    <p class="mb-2">"Fast, friendly and professional. Wouldn't go anywhere else for tyres."</p>
+                    <strong>- Mark, Widnes</strong>
                 </div>
             </div>
 
             <div class="col-md-4">
                 <div class="p-4 bg-white shadow-sm rounded">
-                    <p class="mb-2">“Best price locally and they balanced all four wheels perfectly.”</p>
-                    <strong>— Joanne, Haydock</strong>
+                    <p class="mb-2">"Best price locally and they balanced all four wheels perfectly."</p>
+                    <strong>- Joanne, Haydock</strong>
                 </div>
             </div>
 
@@ -341,12 +384,12 @@ style="background-image:
         </div>
 
         <div class="faq-item mb-3">
-            <h5>Do you offer same‑day tyre fitting?</h5>
-            <p>Yes — most branches offer same‑day fitting depending on stock.</p>
+            <h5>Do you offer same-day tyre fitting?</h5>
+            <p>Yes - most branches offer same-day fitting depending on stock.</p>
         </div>
 
         <div class="faq-item mb-3">
-            <h5>What’s the difference between budget and premium tyres?</h5>
+            <h5>What's the difference between budget and premium tyres?</h5>
             <p>Premium tyres offer better grip, fuel efficiency and longevity, while budget tyres provide reliable performance at a lower cost.</p>
         </div>
     </div>
@@ -364,7 +407,7 @@ style="background-image:
 <!-- FOOTER -->
 <footer class="text-white py-4">
     <div class="container text-center">
-        <p class="mb-1">© Auto Safety Centre 2025</p>
+        <p class="mb-1">&copy; Auto Safety Centre 2025</p>
         <p class="small">MOT | Tyres | Servicing | Repairs</p>
     </div>
 </footer>

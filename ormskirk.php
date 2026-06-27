@@ -6,26 +6,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>MOT Ormskirk | Tyres, Servicing & Repairs | Auto Safety Centre L39</title>
+    <title>MOT Ormskirk | Tyres, Servicing & Repairs | Auto Safety Centre</title>
 
-    <meta name="description" content="Auto Safety Centre Ormskirk (L39). DVSA-approved MOT testing, Continental tyres, servicing, diagnostics and repairs. Serving Ormskirk, Burscough, Aughton, Westhead and surrounding areas. Book MOT Ormskirk today.">
+    <meta name="description" content="MOT testing, tyres, servicing and repairs in Ormskirk L39. Serving Burscough, Aughton, Westhead, Lathom and Scarisbrick.">
 
-    <link rel="canonical" href="https://autosafetycentre.com/ormskirk.php">
+    <link rel="canonical" href="https://autosafetycentre.co.uk/ormskirk.php">
 
     <!-- Open Graph -->
-    <meta property="og:title" content="MOT Ormskirk | Auto Safety Centre L39">
-    <meta property="og:description" content="DVSA-approved MOTs, Continental tyres, servicing and repairs at Auto Safety Centre Ormskirk. Covering all areas within 5 miles of L39.">
-    <meta property="og:url" content="https://autosafetycentre.com/ormskirk.php">
+    <meta property="og:title" content="MOT Ormskirk | Tyres, Servicing & Repairs L39">
+    <meta property="og:description" content="Local MOT testing, tyres, car servicing and repairs at Auto Safety Centre Ormskirk. Serving Ormskirk, Burscough, Aughton, Westhead, Lathom and Scarisbrick.">
+    <meta property="og:url" content="https://autosafetycentre.co.uk/ormskirk.php">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Auto Safety Centre">
-    <meta property="og:image" content="https://autosafetycentre.com/assets/og-ormskirk.jpg">
-
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="MOT Ormskirk | Auto Safety Centre L39">
-    <meta name="twitter:description" content="MOTs, Continental tyres, servicing and repairs at our Ormskirk depot. Covering all areas within 5 miles.">
-    <meta name="twitter:image" content="https://autosafetycentre.com/assets/og-ormskirk.jpg">
-
+    <meta property="og:image" content="https://autosafetycentre.co.uk/assets/og-ormskirk.jpg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
@@ -35,13 +28,13 @@
       "@context": "https://schema.org",
       "@type": "AutoRepair",
       "name": "Auto Safety Centre Ormskirk",
-      "image": "https://autosafetycentre.com/assets/og-ormskirk.jpg",
+      "image": "https://autosafetycentre.co.uk/assets/og-ormskirk.jpg",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Ormskirk Depot",
+        "streetAddress": "Unit 4 & 5, County Road Business Park, County Road",
         "addressLocality": "Ormskirk",
         "addressRegion": "Lancashire",
-        "postalCode": "L39",
+        "postalCode": "L39 3LY",
         "addressCountry": "UK"
       },
       "geo": {
@@ -57,19 +50,38 @@
         "Lathom",
         "Scarisbrick"
       ],
-      "hasMap": "https://www.google.com/maps?q=Ormskirk+L39",
-      "url": "https://autosafetycentre.com/ormskirk.php",
+      "hasMap": "https://www.google.com/maps?q=Unit+4+and+5+County+Road+Business+Park+County+Road+Ormskirk+L39+3LY",
+      "url": "https://autosafetycentre.co.uk/ormskirk.php",
       "telephone": "01695 310106",
       "openingHours": [
         "Mo-Fr 08:30-17:30",
         "Sa 08:30-13:00"
       ],
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "08:30",
+          "closes": "17:30"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "08:30",
+          "closes": "13:00"
+        }
+      ],
       "priceRange": "££",
       "sameAs": [
-        "https://www.facebook.com/autosafetycentre",
         "https://g.page/autosafetycentre-ormskirk"
       ],
-      "description": "DVSA-approved MOT testing, Continental tyres, servicing, diagnostics and repairs for all makes and models within 5 miles of Ormskirk.",
+      "description": "DVSA-approved MOT testing, tyre fitting, car servicing, diagnostics and repairs in Ormskirk L39, serving Burscough, Aughton, Westhead, Lathom and Scarisbrick.",
       "makesOffer": [
         { "@type": "Service", "serviceType": "MOT Testing" },
         { "@type": "Service", "serviceType": "Tyre Fitting" },
@@ -85,6 +97,8 @@
 <body>
 <!-- Updated internal href links from .html to .php so links match the project files. -->
 <!-- Updated booking buttons to link to booking.php so customers open the Book My Garage widget page. -->
+<!-- Updated canonical, OG and schema URLs to use https://autosafetycentre.co.uk as the main site domain. -->
+<!-- Updated Ormskirk local SEO titles, descriptions, area text and schema for Ormskirk, Burscough, Aughton, Westhead, Lathom and Scarisbrick. -->
 
 <!-- FLOATING BRANCHES BLOCK -->
 <!-- FLOATING BRANCHES BLOCK -->
@@ -144,7 +158,7 @@
     <div class="ratio ratio-16x9 position-relative">
 
         <iframe 
-            src="https://www.google.com/maps?q=Ormskirk+L39&output=embed"
+            src="https://www.google.com/maps?q=Unit+4+and+5+County+Road+Business+Park+County+Road+Ormskirk+L39+3LY&output=embed"
             style="border:0; width:100%; height:100%; opacity:0; transition:opacity 3.8s ease;"
             loading="lazy"
             onload="this.style.opacity='1'">
@@ -155,7 +169,7 @@
     <div class="position-absolute top-40 start-50 translate-middle text-center text-white"
          style="text-shadow: 0 0 10px rgba(0,0,0,0.8);">
         <h1 class="display-4 fw-bold">MOT Centre in Ormskirk</h1>
-        <p class="lead mt-2">Tyres • Servicing • Repairs • Diagnostics</p>
+        <p class="lead mt-2">MOT Testing • Tyres • Car Servicing • Repairs in Ormskirk L39</p>
         <a href="booking.php" class="cta-btn mt-4">Book MOT Ormskirk</a>
     </div>
 </section>
@@ -163,12 +177,12 @@
 <!-- INTRO -->
 <section class="py-5">
     <div class="container">
-        <h2 class="fw-bold text-center mb-4">Your Local MOT, Tyre & Servicing Centre in Ormskirk</h2>
+        <h2 class="fw-bold text-center mb-4">MOT, Tyres, Servicing & Repairs in Ormskirk L39</h2>
         <p class="lead text-center">
-            Auto Safety Centre Ormskirk provides DVSA‑approved MOT testing, expert tyre fitting with premium Continental tyres
-            (see our full <a href="tyres.php">tyre services</a>), full vehicle servicing and reliable repairs for all makes and models.
-            We also carry out all key MOT safety checks including brakes, suspension, emissions and lighting.
-            Located in the heart of Ormskirk (L39), we support drivers across Ormskirk, Burscough, Aughton and all surrounding areas within a 5‑mile radius.
+            Auto Safety Centre Ormskirk provides DVSA‑approved MOT testing, expert tyre fitting,
+            car servicing, diagnostics and reliable vehicle repairs for drivers in Ormskirk L39.
+            From MOT checks and replacement tyres to servicing, brakes, suspension, emissions and lighting,
+            our Ormskirk garage supports motorists across Burscough, Aughton, Westhead, Lathom and Scarisbrick.
             You can also visit our nearby <a href="haydock.php">Haydock depot</a> or our <a href="sthelens.php">St Helens branch</a>.
         </p>
     </div>
@@ -189,11 +203,11 @@
 <!-- AREAS WE SERVE -->
 <section class="py-5 bg-light">
     <div class="container">
-        <h2 class="fw-bold text-center mb-4">Areas We Serve (Within 5 Miles)</h2>
+        <h2 class="fw-bold text-center mb-4">Areas We Serve Near Ormskirk</h2>
         <p class="text-center">
-            We proudly support motorists across Ormskirk and nearby areas including Burscough, Aughton,
-            Westhead, Lathom and Scarisbrick.
-            Our depot is ideally positioned for fast MOTs, tyre fitting and servicing for all L39 and surrounding postcodes.
+            We proudly support motorists across Ormskirk, Burscough, Aughton, Westhead, Lathom
+            and Scarisbrick. Our depot is ideally positioned for MOT testing, tyre fitting, car servicing,
+            diagnostics and repairs for L39 drivers and nearby West Lancashire communities.
         </p>
     </div>
 </section>
@@ -209,9 +223,10 @@
                     <p><strong>Email:</strong> <a href="mailto:ormskirk@autosafetycentre.com">ormskirk@autosafetycentre.com</a></p>
                     <p><strong>Address:</strong><br>
                         Auto Safety Centre Ormskirk<br>
-                        Ormskirk Depot<br>
+                        Unit 4 &amp; 5, County Road Business Park<br>
+                        County Road<br>
                         Ormskirk<br>
-                        L39
+                        L39 3LY
                     </p>
                 </div>
             </div>
@@ -429,7 +444,7 @@
     <div class="container">
         <h2 class="fw-bold text-center mb-4">How to Find Us</h2>
         <p class="text-center">
-            Our depot is located in Ormskirk (L39), close to the town centre and Edge Hill University.
+            Our depot is located at Unit 4 &amp; 5, County Road Business Park, County Road, Ormskirk L39 3LY.
             We are easily accessible from Burscough, Aughton, Westhead, Lathom and surrounding West Lancashire areas.
         </p>
     </div>

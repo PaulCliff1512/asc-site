@@ -6,26 +6,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>MOT Haydock | Tyres, Servicing & Repairs | Auto Safety Centre WA11</title>
+    <title>MOT Haydock | Tyres, Servicing & Repairs | Auto Safety Centre</title>
 
-    <meta name="description" content="Auto Safety Centre Haydock (WA11). DVSA-approved MOT testing, Continental tyres, servicing, diagnostics and repairs. Serving Haydock, Blackbrook, Ashton-in-Makerfield, Earlestown, Newton-le-Willows and surrounding areas. Book MOT Haydock today.">
+    <meta name="description" content="MOT testing, tyres, servicing and repairs in Haydock WA11. Serving Blackbrook, Ashton-in-Makerfield, Earlestown and Newton-le-Willows.">
 
-<link rel="canonical" href="https://autosafetycentre.com/haydock.php">
+<link rel="canonical" href="https://autosafetycentre.co.uk/haydock.php">
 
     <!-- Open Graph -->
-    <meta property="og:title" content="MOT Haydock | Auto Safety Centre WA11">
-    <meta property="og:description" content="DVSA-approved MOTs, Continental tyres, servicing and repairs at Auto Safety Centre Haydock. Covering all areas within 5 miles of WA11.">
-<meta property="og:url" content="https://autosafetycentre.com/haydock.php">
+    <meta property="og:title" content="MOT Haydock | Tyres, Servicing & Repairs WA11">
+    <meta property="og:description" content="Local MOT testing, tyres, car servicing and repairs at Auto Safety Centre Haydock. Serving Haydock, Blackbrook, Ashton-in-Makerfield, Earlestown and Newton-le-Willows.">
+<meta property="og:url" content="https://autosafetycentre.co.uk/haydock.php">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Auto Safety Centre">
-    <meta property="og:image" content="https://autosafetycentre.com/assets/og-haydock.jpg">
-
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="MOT Haydock | Auto Safety Centre WA11">
-    <meta name="twitter:description" content="MOTs, Continental tyres, servicing and repairs at our Haydock depot. Covering all areas within 5 miles.">
-    <meta name="twitter:image" content="https://autosafetycentre.com/assets/og-haydock.jpg">
-
+    <meta property="og:image" content="https://autosafetycentre.co.uk/assets/og-haydock.jpg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
@@ -35,7 +28,7 @@
       "@context": "https://schema.org",
       "@type": "AutoRepair",
       "name": "Auto Safety Centre Haydock",
-      "image": "https://autosafetycentre.com/assets/og-haydock.jpg",
+      "image": "https://autosafetycentre.co.uk/assets/og-haydock.jpg",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Vicarage Road",
@@ -52,27 +45,45 @@
       "areaServed": [
         "Haydock",
         "Blackbrook",
-        "Earlestown",
-        "Newton-le-Willows",
         "Ashton-in-Makerfield",
-        "Garswood",
-        "Moss Bank"
+        "Earlestown",
+        "Newton-le-Willows"
       ],
       "hasMap": "https://www.google.com/maps?q=Vicarage+Road+Haydock+WA11+0UJ",
-    "url": "https://autosafetycentre.com/haydock.php",
+    "url": "https://autosafetycentre.co.uk/haydock.php",
     "telephone": "01744 300103",
       "openingHours": [
         "Mo-Fr 08:30-17:30",
         "Sa 08:30-13:00"
       ],
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "08:30",
+          "closes": "17:30"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "08:30",
+          "closes": "13:00"
+        }
+      ],
       "priceRange": "££",
       "sameAs": [
-        "https://www.facebook.com/autosafetycentre",
         "https://g.page/autosafetycentre-haydock"
       ],
-      "description": "DVSA-approved MOT testing, Continental tyres, servicing, diagnostics and repairs for all makes and models within 5 miles of Haydock.",
+      "description": "DVSA-approved MOT testing, tyre fitting, car servicing, diagnostics and repairs in Haydock WA11, serving Blackbrook, Ashton-in-Makerfield, Earlestown and Newton-le-Willows.",
       "makesOffer": [
-        { "@type": "Service", "serviceType": "MOT Testing" },
+        { "@type": "Service", "serviceType": "Class 4 MOT Testing" },
+        { "@type": "Service", "serviceType": "Class 7 MOT Testing" },
         { "@type": "Service", "serviceType": "Tyre Fitting" },
         { "@type": "Service", "serviceType": "Vehicle Servicing" },
         { "@type": "Service", "serviceType": "Diagnostics" },
@@ -87,6 +98,8 @@
 <!-- Updated internal and metadata links from .html to .php so links match the project files. -->
 <!-- Updated Haydock phone number from 01744 453252 to 01744 300103 so all Haydock contact details match. -->
 <!-- Updated booking buttons to link to booking.php so customers open the Book My Garage widget page. -->
+<!-- Updated canonical, OG and schema URLs to use https://autosafetycentre.co.uk as the main site domain. -->
+<!-- Updated Haydock local SEO titles, descriptions, area text and schema for Haydock, Blackbrook, Ashton-in-Makerfield, Earlestown and Newton-le-Willows. -->
 
 <!-- FLOATING BRANCHES BLOCK -->
 <div class="position-fixed branch-column" style="top:220px; left:10px; z-index:1000;">
@@ -155,7 +168,7 @@
     <div class="position-absolute top-40 start-50 translate-middle text-center text-white"
          style="text-shadow: 0 0 10px rgba(0,0,0,0.8);">
         <h1 class="display-4 fw-bold">MOT Centre in Haydock</h1>
-        <p class="lead mt-2">Tyres • Servicing • Repairs • Diagnostics</p>
+        <p class="lead mt-2">MOT Testing • Tyres • Car Servicing • Repairs in Haydock WA11</p>
         <a href="booking.php" class="cta-btn mt-4">Book MOT Haydock</a>
     </div>
 </section>
@@ -163,12 +176,12 @@
 <!-- INTRO -->
 <section class="py-5">
     <div class="container">
-        <h2 class="fw-bold text-center mb-4">Your Local MOT, Tyre & Servicing Centre in Haydock</h2>
+        <h2 class="fw-bold text-center mb-4">MOT, Tyres, Servicing & Repairs in Haydock WA11</h2>
         <p class="lead text-center">
-            Auto Safety Centre Haydock provides DVSA‑approved MOT testing, expert tyre fitting with premium Continental tyres
-            (see our full <a href="tyres.php">tyre services</a>), full vehicle servicing and reliable repairs for all makes and models.
-            We also carry out all key MOT safety checks including brakes, suspension, emissions and lighting.
-            Located on Vicarage Road (WA11), we support drivers across Haydock, Blackbrook, Earlestown and all surrounding areas within a 5‑mile radius.
+            Auto Safety Centre Haydock provides DVSA‑approved MOT testing, expert tyre fitting,
+            car servicing, diagnostics and reliable vehicle repairs for drivers in Haydock WA11.
+            From MOT checks and replacement tyres to servicing, brakes, suspension, emissions and lighting,
+            our Haydock garage supports motorists across Blackbrook, Ashton-in-Makerfield, Earlestown and Newton-le-Willows.
             You can also visit our nearby <a href="sthelens.php">St Helens depot</a> or our Widnes branch at <a href="widnes.php">Auto Safety Centre Widnes</a>.
         </p>
     </div>
@@ -189,11 +202,11 @@
 <!-- AREAS WE SERVE -->
 <section class="py-5 bg-light">
     <div class="container">
-        <h2 class="fw-bold text-center mb-4">Areas We Serve (Within 5 Miles)</h2>
+        <h2 class="fw-bold text-center mb-4">Areas We Serve Near Haydock</h2>
         <p class="text-center">
-            We proudly support motorists across Haydock and nearby areas including Blackbrook, Earlestown,
-            Newton-le-Willows, Ashton-in-Makerfield, Garswood and Moss Bank.
-            Our depot is ideally positioned for fast MOTs, tyre fitting and servicing for all WA11 and surrounding postcodes.
+            We proudly support motorists across Haydock, Blackbrook, Ashton-in-Makerfield, Earlestown
+            and Newton-le-Willows. Our depot is ideally positioned for MOT testing, tyre fitting,
+            car servicing, diagnostics and repairs for WA11 drivers and nearby local communities.
         </p>
     </div>
 </section>
@@ -256,7 +269,7 @@
                 <div class="service-card">
                     <h4 class="fw-bold">MOT Testing</h4>
                     <p>
-                        We carry out DVSA-approved MOT tests for Class 4 vehicles including cars and small vans.
+                        We carry out DVSA-approved MOT tests for Class 4 and Class 7 vehicles, including cars, small vans and eligible larger vans.
                         Our MOT bay provides fast, accurate inspections with clear guidance on advisories or failures.
                     </p>
                     <p><a href="mot.php">Learn more about MOT testing</a></p>

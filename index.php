@@ -4,27 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Auto Safety Centre | MOT, Tyres, Servicing & Car Repairs Across Merseyside</title>
+    <title>Auto Safety Centre | MOT, Tyres, Servicing & Repairs</title>
 
-    <meta name="description" content="Auto Safety Centre operates five trusted local garages across Merseyside, each serving customers within a 3–4 mile radius. MOT testing, tyres, servicing and repairs from St Helens, Haydock, Widnes, Prescot and Ormskirk. Book online 24/7.">
+    <meta name="description" content="Five local garages for MOT testing, tyres, servicing and car repairs in St Helens, Haydock, Widnes, Prescot and Ormskirk. Book online 24/7.">
 
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://autosafetycentre.com/">
+    <link rel="canonical" href="https://autosafetycentre.co.uk/">
 
     <!-- OpenGraph -->
     <meta property="og:title" content="Auto Safety Centre | MOT, Tyres, Servicing & Repairs Across Merseyside">
     <meta property="og:description" content="Five local depots across Merseyside, each serving a 3–4 mile radius. MOTs, tyres, servicing and repairs. Book online 24/7.">
-    <meta property="og:url" content="https://autosafetycentre.com/">
+    <meta property="og:url" content="https://autosafetycentre.co.uk/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Auto Safety Centre">
-    <meta property="og:image" content="https://autosafetycentre.com/assets/og-home.jpg">
-
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Auto Safety Centre | MOT, Tyres, Servicing & Repairs">
-    <meta name="twitter:description" content="Trusted MOT, tyres, servicing and repair specialists across Merseyside.">
-    <meta name="twitter:image" content="https://autosafetycentre.com/assets/og-home.jpg">
-
+    <meta property="og:image" content="https://autosafetycentre.co.uk/assets/og-home.jpg">
     <!-- Preload hero image -->
     <link rel="preload" as="image" href="assets/og-home.jpg">
 
@@ -38,6 +31,7 @@
 <body>
 <!-- Updated internal href links from .html to .php so links match the project files. -->
 <!-- Updated booking button to link to booking.php so customers open the Book My Garage widget page. -->
+<!-- Updated canonical and social URLs to use https://autosafetycentre.co.uk as the main site domain. -->
 
 <!-- LEFT‑SIDE BRANCH COLUMN -->
 <!-- CHANGE: removed d-none d-md-block so it becomes visible on mobile -->

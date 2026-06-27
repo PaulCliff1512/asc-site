@@ -1,97 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
+  <!-- Updated sitemap to use https://autosafetycentre.co.uk and only list real site files. -->
+
   <!-- Core pages -->
   <url>
     <loc>https://autosafetycentre.co.uk/</loc>
-    <lastmod>2026-04-12</lastmod>
+    <lastmod>2026-06-27</lastmod>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://autosafetycentre.co.uk/about-us</loc>
-    <lastmod>2026-04-12</lastmod>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://autosafetycentre.co.uk/contact</loc>
-    <lastmod>2026-04-12</lastmod>
-    <priority>0.7</priority>
+    <loc>https://autosafetycentre.co.uk/booking.php</loc>
+    <lastmod>2026-06-27</lastmod>
+    <priority>0.9</priority>
   </url>
 
   <!-- Depot pages -->
   <url>
-    <loc>https://autosafetycentre.co.uk/st-helens</loc>
-    <lastmod>2026-04-12</lastmod>
+    <loc>https://autosafetycentre.co.uk/sthelens.php</loc>
+    <lastmod>2026-06-27</lastmod>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://autosafetycentre.co.uk/haydock</loc>
-    <lastmod>2026-04-12</lastmod>
+    <loc>https://autosafetycentre.co.uk/haydock.php</loc>
+    <lastmod>2026-06-27</lastmod>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://autosafetycentre.co.uk/widnes</loc>
-    <lastmod>2026-04-12</lastmod>
+    <loc>https://autosafetycentre.co.uk/widnes.php</loc>
+    <lastmod>2026-06-27</lastmod>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://autosafetycentre.co.uk/prescot</loc>
-    <lastmod>2026-04-12</lastmod>
+    <loc>https://autosafetycentre.co.uk/prescot.php</loc>
+    <lastmod>2026-06-27</lastmod>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://autosafetycentre.co.uk/ormskirk</loc>
-    <lastmod>2026-04-12</lastmod>
+    <loc>https://autosafetycentre.co.uk/ormskirk.php</loc>
+    <lastmod>2026-06-27</lastmod>
     <priority>0.9</priority>
   </url>
 
-  <!-- Services -->
+  <!-- Service pages -->
   <url>
-    <loc>https://autosafetycentre.co.uk/mot</loc>
-    <lastmod>2026-04-12</lastmod>
+    <loc>https://autosafetycentre.co.uk/mot.php</loc>
+    <lastmod>2026-06-27</lastmod>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://autosafetycentre.co.uk/tyres</loc>
-    <lastmod>2026-04-12</lastmod>
+    <loc>https://autosafetycentre.co.uk/tyres.php</loc>
+    <lastmod>2026-06-27</lastmod>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://autosafetycentre.co.uk/brakes</loc>
-    <lastmod>2026-04-12</lastmod>
+    <loc>https://autosafetycentre.co.uk/servicing.php</loc>
+    <lastmod>2026-06-27</lastmod>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://autosafetycentre.co.uk/exhausts</loc>
-    <lastmod>2026-04-12</lastmod>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://autosafetycentre.co.uk/servicing</loc>
-    <lastmod>2026-04-12</lastmod>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Booking pages -->
-  <url>
-    <loc>https://autosafetycentre.co.uk/book-mot</loc>
-    <lastmod>2026-04-12</lastmod>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://autosafetycentre.co.uk/book-service</loc>
-    <lastmod>2026-04-12</lastmod>
+    <loc>https://autosafetycentre.co.uk/repairs.php</loc>
+    <lastmod>2026-06-27</lastmod>
     <priority>0.8</priority>
   </url>
 

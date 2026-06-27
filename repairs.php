@@ -1,46 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- HEAD -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Car Repairs & Diagnostics | Auto Safety Centre</title>
 
-    <meta name="description" content="Expert car repairs across St Helens, Haydock, Widnes, Prescot and Ormskirk. Brakes, suspension, diagnostics, exhausts, clutches, batteries and more. Professional technicians and high‑quality parts.">
+    <meta name="description" content="Car repairs and diagnostics in St Helens, Haydock, Widnes, Prescot and Ormskirk. Brakes, clutches, head gaskets, suspension and more.">
 
     <!-- Canonical URL -->
-<link rel="canonical" href="https://autosafetycentre.co.uk/repairs.php">
+    <link rel="canonical" href="https://autosafetycentre.co.uk/repairs.php">
 
     <!-- OpenGraph -->
     <meta property="og:title" content="Car Repairs & Diagnostics | Auto Safety Centre">
     <meta property="og:description" content="Brakes, suspension, diagnostics, exhausts, clutches, batteries and more. Expert repairs across all Auto Safety Centre branches.">
-<meta property="og:url" content="https://autosafetycentre.co.uk/repairs.php">
+    <meta property="og:url" content="https://autosafetycentre.co.uk/repairs.php">
     <meta property="og:type" content="website">
+    <meta property="og:image" content="https://autosafetycentre.co.uk/assets/og-home.jpg">
     <meta property="og:site_name" content="Auto Safety Centre">
-
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Car Repairs & Diagnostics | Auto Safety Centre">
-    <meta name="twitter:description" content="Professional car repairs including brakes, suspension, diagnostics, exhausts, clutches and more.">
-
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 
-    <!-- Service Schema -->
+    <!-- Schema: repairs service page across all Auto Safety Centre branches. -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "AutoRepair",
-      "name": "Auto Safety Centre - Car Repairs",
-      "serviceType": "Vehicle Repairs & Diagnostics",
+      "@type": "Service",
+      "name": "Car Repairs and Diagnostics",
+      "url": "https://autosafetycentre.co.uk/repairs.php",
+      "image": "https://autosafetycentre.co.uk/images/repairs.webp",
+      "description": "Car repairs and diagnostics across St Helens, Haydock, Widnes, Prescot and Ormskirk, including brakes, clutches, head gaskets, suspension, exhausts, batteries and gearboxes.",
       "provider": {
         "@type": "Organization",
-        "name": "Auto Safety Centre"
+        "name": "Auto Safety Centre",
+        "url": "https://autosafetycentre.co.uk/"
       },
       "areaServed": [
         "St Helens",
@@ -49,21 +46,85 @@
         "Prescot",
         "Ormskirk"
       ],
-      "description": "Car repairs including brakes, suspension, diagnostics, exhausts, clutches, batteries and more.",
-  "url": "https://autosafetycentre.co.uk/repairs.php"
+      "offers": {
+        "@type": "OfferCatalog",
+        "name": "Car Repair Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "Brake Repairs",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Brake Repairs"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Clutch Repairs",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Clutch Repairs"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Head Gasket Repairs",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Head Gasket Repairs"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Suspension Repairs",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Suspension Repairs"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Vehicle Diagnostics",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Vehicle Diagnostics"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Exhaust Repairs",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Exhaust Repairs"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Battery Testing and Replacement",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Battery Testing and Replacement"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Gearbox Repairs",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Gearbox Repairs"
+            }
+          }
+        ]
+      },
+      "mainEntityOfPage": "https://autosafetycentre.co.uk/repairs.php"
     }
     </script>
 </head>
 
 <body>
-<!-- Updated internal and metadata links from .html to .php so links match the project files. -->
-<!-- Updated booking buttons to link to booking.php so customers open the Book My Garage widget page. -->
-<!-- Removed repair booking buttons and added a depot appointment title above the main repairs content. -->
-
-<!-- LEFT‑SIDE BRANCH COLUMN -->
+<!-- LEFT-SIDE BRANCH COLUMN -->
 <div class="position-fixed branch-column" style="top:140px; left:10px; z-index:1000;">
     <div class="bg-light p-3 shadow-sm rounded small text-center">
-        <!-- CHANGE: text-center added for mobile centering -->
         <strong>Branches</strong><br>
         <a href="tel:01744300104" class="text-dark d-block">St Helens: 01744 300104</a>
         <a href="tel:01744300103" class="text-dark d-block">Haydock: 01744 300103</a>
@@ -112,7 +173,7 @@ style="background-image:
         linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
         url('images/repairs.webp');">
     <div class="container">
-        <h1 class="display-4 fw-bold">Auto Safety Centre</h1>
+        <h1 class="display-4 fw-bold">Car Repairs and Diagnostics Near You</h1>
         <h2>Full Range of Repairs</h2>
         <p class="lead mt-3">Brakes, clutches, suspension and diagnostics for all makes and models</p>
     </div>
@@ -125,10 +186,10 @@ style="background-image:
         <h2 class="fw-bold text-center mb-4">Reliable Repairs You Can Trust</h2>
         <p class="lead text-center">
             From warning lights to unusual noises, our experienced technicians diagnose and repair all makes and models.
-            We use high‑quality parts and the latest equipment to ensure your vehicle is repaired safely and correctly.
+            We use high-quality parts and the latest equipment to ensure your vehicle is repaired safely and correctly.
         </p>
         <p class="text-center">
-            No guesswork, no unnecessary work — just honest, professional repairs.
+            No guesswork, no unnecessary work - just honest, professional repairs.
         </p>
     </div>
 </section>
@@ -156,18 +217,69 @@ style="background-image:
     </div>
 </section>
 
+<!-- REPAIR DETAILS -->
+<section class="py-5">
+    <div class="container">
+        <h2 class="fw-bold text-center mb-5">Common Car Repairs We Handle</h2>
+
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="service-card h-100">
+                    <h4 class="fw-bold">Brake Repairs</h4>
+                    <p>We inspect and repair brake pads, discs, calipers, brake pipes and ABS faults. If your brakes are noisy, soft, vibrating or warning lights appear, our technicians can check the system and explain the repair clearly.</p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="service-card h-100">
+                    <h4 class="fw-bold">Clutch Repairs</h4>
+                    <p>Slipping clutches, difficult gear changes, burning smells and biting point changes can all point to clutch wear. We diagnose clutch and gearbox issues and advise on the correct repair for your vehicle.</p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="service-card h-100">
+                    <h4 class="fw-bold">Head Gasket Repairs</h4>
+                    <p>Overheating, coolant loss, white exhaust smoke or oil contamination can indicate head gasket trouble. We carry out checks before recommending repair work, helping avoid unnecessary parts replacement.</p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="service-card h-100">
+                    <h4 class="fw-bold">Suspension Repairs</h4>
+                    <p>Knocking noises, uneven tyre wear, pulling to one side or poor ride comfort can be caused by worn suspension or steering components. We inspect shocks, springs, bushes, arms and related parts.</p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="service-card h-100">
+                    <h4 class="fw-bold">Vehicle Diagnostics</h4>
+                    <p>Engine management lights and electrical faults need proper testing. Our diagnostic checks help identify the cause of warning lights, running issues, emissions faults and sensor problems.</p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="service-card h-100">
+                    <h4 class="fw-bold">Exhausts and Batteries</h4>
+                    <p>We repair and replace exhaust sections, check emissions problems, test batteries and inspect charging systems. This helps keep your vehicle reliable, legal and ready for everyday use.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- WHY CHOOSE US -->
 <section class="py-5">
     <div class="container">
         <h2 class="fw-bold text-center mb-4">Why Choose Auto Safety Centre?</h2>
 
         <ul class="list-unstyled text-center">
-            <li>✔ Experienced, qualified technicians</li>
-            <li>✔ Honest pricing and clear communication</li>
-            <li>✔ High‑quality replacement parts</li>
-            <li>✔ Fast turnaround times</li>
-            <li>✔ Six convenient locations</li>
-            <li>✔ Trusted by thousands of local drivers</li>
+            <li>Experienced, qualified technicians</li>
+            <li>Honest pricing and clear communication</li>
+            <li>High-quality replacement parts</li>
+            <li>Fast turnaround times</li>
+            <li>Five convenient locations</li>
+            <li>Trusted by thousands of local drivers</li>
         </ul>
     </div>
 </section>
@@ -175,7 +287,7 @@ style="background-image:
 <!-- FOOTER -->
 <footer class="text-white py-4">
     <div class="container text-center">
-        <p class="mb-1">© Auto Safety Centre 2025</p>
+        <p class="mb-1">&copy; Auto Safety Centre 2025</p>
         <p class="small">MOT | Tyres | Servicing | Repairs</p>
     </div>
 </footer>

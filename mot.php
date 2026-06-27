@@ -5,59 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Class 4 & 7 MOT Testing | DVSA‑Approved | Auto Safety Centre</title>
+    <title>MOT Testing Near You | Auto Safety Centre</title>
 
-    <meta name="description" content="DVSA-approved Class 4 & 7 MOT testing across St Helens, Haydock, Widnes, Prescot and Ormskirk. Fast appointments, honest results and on-site repairs. Book your MOT today.">
+    <meta name="description" content="DVSA-approved MOT testing in St Helens, Haydock, Widnes, Prescot and Ormskirk. Book online and choose your nearest Auto Safety Centre branch.">
 
     <!-- Canonical -->
 <link rel="canonical" href="https://autosafetycentre.co.uk/mot.php">
 
     <!-- OpenGraph -->
-    <meta property="og:title" content="Class 4 & 7 MOT Testing | DVSA‑Approved | Auto Safety Centre">
-    <meta property="og:description" content="Fast, reliable MOT testing with DVSA-approved testers. Book your MOT at any of our North West branches.">
+    <meta property="og:title" content="MOT Testing Across Five Local Auto Safety Centre Branches">
+    <meta property="og:description" content="Book MOT testing in St Helens, Haydock, Widnes, Prescot or Ormskirk with DVSA-approved testers and clear local service.">
 <meta property="og:url" content="https://autosafetycentre.co.uk/mot.php">
     <meta property="og:type" content="website">
+    <meta property="og:image" content="https://autosafetycentre.co.uk/assets/og-home.jpg">
     <meta property="og:site_name" content="Auto Safety Centre">
-
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Class 4 & 7 MOT Testing | DVSA‑Approved | Auto Safety Centre">
-    <meta name="twitter:description" content="Book your MOT with DVSA-approved testers. Fast appointments and honest results.">
-
     <!-- CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 	<link href="css/widget.css" rel="stylesheet">
-    <!-- Schema -->
+    <!-- Schema: MOT service page across all Auto Safety Centre branches. -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "AutoRepair",
-      "name": "Auto Safety Centre - MOT Testing",
+      "@type": "Service",
+      "name": "MOT Testing",
+      "url": "https://autosafetycentre.co.uk/mot.php",
       "image": "https://autosafetycentre.co.uk/images/mot.webp",
-      "serviceType": [
-        "Class 4 MOT Test",
-        "Class 7 MOT Test",
-        "MOT Retest",
-        "Pre-MOT Checks"
-      ],
-      "makesOffer": [
-        {
-          "@type": "Offer",
-          "itemOffered": "Class 4 MOT Test"
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": "Class 7 MOT Test"
-        }
-      ],
+      "description": "DVSA-approved MOT testing across St Helens, Haydock, Widnes, Prescot and Ormskirk, with online booking and local branch choice.",
       "provider": {
         "@type": "Organization",
         "name": "Auto Safety Centre",
-        "sameAs": [
-          "https://www.facebook.com/autosafetycentre",
-          "https://www.instagram.com/autosafetycentre"
-        ]
+        "url": "https://autosafetycentre.co.uk/"
       },
       "areaServed": [
         "St Helens",
@@ -66,8 +44,29 @@
         "Prescot",
         "Ormskirk"
       ],
-      "description": "DVSA-approved MOT testing with fast appointments, honest results and on-site repairs.",
-  "url": "https://autosafetycentre.co.uk/mot.php"
+      "offers": {
+        "@type": "OfferCatalog",
+        "name": "MOT Testing Options",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "Class 4 MOT Test",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Class 4 MOT Test"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Class 7 MOT Test",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Class 7 MOT Test"
+            }
+          }
+        ]
+      },
+      "mainEntityOfPage": "https://autosafetycentre.co.uk/mot.php"
     }
     </script>
 
@@ -107,13 +106,9 @@
 </head>
 
 <body>
-<!-- Updated internal and metadata links from .html to .php so links match the project files. -->
-<!-- Updated booking button to link to booking.php so customers open the Book My Garage widget page. -->
-
 <!-- LEFT COLUMN -->
 <div class="position-fixed branch-column" style="top:140px; left:10px; z-index:1000;">
     <div class="bg-light p-3 shadow-sm rounded small text-center">
-        <!-- CHANGE: text-center added for mobile centering -->
         <strong>Branches</strong><br>
         <a href="tel:01744300104" class="text-dark d-block">St Helens: 01744 300104</a>
         <a href="tel:01744300103" class="text-dark d-block">Haydock: 01744 300103</a>
@@ -162,8 +157,8 @@ style="background-image:
         linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
         url('images/mechanic1.webp');">
     <div class="container">
-        <h1 class="display-4 fw-bold">DVSA‑Approved MOT Testing</h1>
-        <p class="lead mt-3">Fast, reliable Class 4 & Class 7 MOTs for cars and small vans</p>
+        <h1 class="display-4 fw-bold">MOT Testing Near You</h1>
+        <p class="lead mt-3">DVSA-approved MOT testing in St Helens, Haydock, Widnes, Prescot and Ormskirk</p>
     </div>
 </section>
 
@@ -190,20 +185,58 @@ style="background-image:
 <!-- INTRO -->
 <section class="py-5">
     <div class="container">
-        <h2 class="fw-bold text-center mb-4">Your MOT Test Made Simple</h2>
+        <h2 class="fw-bold text-center mb-4">Book Your MOT at a Local Auto Safety Centre Branch</h2>
         <p class="lead text-center">
-            Our DVSA-approved testers provide fast, accurate MOT testing across all six branches.
-            If your vehicle needs repairs to pass, we can complete them on-site the same day.
+            Our DVSA-approved testers provide fast, accurate MOT testing across all five branches:
+            St Helens, Haydock, Widnes, Prescot and Ormskirk.
+            If your vehicle needs repairs to pass, our local teams can explain the work clearly and help get you safely back on the road.
         </p>
         <p class="text-center">
-            Stay safe, stay legal — book your MOT with a trusted local garage.
+            Stay safe, stay legal and book your MOT online with a trusted local garage.
         </p>
     </div>
 </section>
 
 
-<!-- WHAT'S CHECKED -->
+<!-- MOT OPTIONS -->
 <section class="py-5 bg-light">
+    <div class="container">
+        <h2 class="fw-bold text-center mb-5">MOT Testing Options</h2>
+
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="service-card h-100">
+                    <h4 class="fw-bold">Class 4 MOT Testing</h4>
+                    <p>Class 4 MOT tests cover cars, small vans and most passenger vehicles. Our testers check key safety, emissions, lighting, braking, steering, suspension, tyres and structural items.</p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="service-card h-100">
+                    <h4 class="fw-bold">Class 7 MOT Testing</h4>
+                    <p>Class 7 MOT testing is available at our Haydock and Widnes branches only. This covers eligible larger vans and commercial vehicles, with the correct MOT bay and equipment for the class.</p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="service-card h-100">
+                    <h4 class="fw-bold">MOT Repairs and Retests</h4>
+                    <p>If your vehicle fails, we explain the result clearly and can help with repairs such as brakes, tyres, suspension, lights, exhausts and emissions faults before arranging a retest.</p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="service-card h-100">
+                    <h4 class="fw-bold">Choose Your Local Branch</h4>
+                    <p>Book your MOT at St Helens, Haydock, Widnes, Prescot or Ormskirk. Choose Haydock or Widnes if you need a confirmed Class 7 MOT appointment.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- WHAT'S CHECKED -->
+<section class="py-5">
     <div class="container">
         <h2 class="fw-bold text-center mb-5">What’s Checked During an MOT?</h2>
 
@@ -223,14 +256,14 @@ style="background-image:
     <div class="container">
         <h2 class="fw-bold text-center mb-4">MOT Testing Near You</h2>
         <p class="text-center">
-            We provide MOT testing across the North West, including:
+            Choose your nearest Auto Safety Centre branch for convenient MOT testing:
         </p>
         <ul class="list-unstyled text-center">
-            <li>✔ MOT in St Helens</li>
-            <li>✔ MOT in Haydock</li>
-            <li>✔ MOT in Widnes</li>
-            <li>✔ MOT in Prescot</li>
-            <li>✔ MOT in Ormskirk</li>
+            <li><a href="sthelens.php">MOT in St Helens</a></li>
+            <li><a href="haydock.php">MOT in Haydock</a></li>
+            <li><a href="widnes.php">MOT in Widnes</a></li>
+            <li><a href="prescot.php">MOT in Prescot</a></li>
+            <li><a href="ormskirk.php">MOT in Ormskirk</a></li>
         </ul>
     </div>
 </section>

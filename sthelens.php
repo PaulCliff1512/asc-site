@@ -6,26 +6,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>MOT St Helens | Tyres, Servicing & Repairs | Auto Safety Centre WA10</title>
+    <title>MOT St Helens | Tyres, Servicing & Repairs | Auto Safety Centre</title>
 
-    <meta name="description" content="Auto Safety Centre St Helens (WA10). DVSA-approved MOT testing, Continental tyres, servicing, diagnostics and repairs. Serving Sutton, Thatto Heath, Eccleston, Parr, Dentons Green, Peasley Cross, Fingerpost, Windle and West Park. Book MOT St Helens today.">
+    <meta name="description" content="MOT testing, tyres, servicing and repairs in St Helens WA10. Serving Sutton, Thatto Heath, Eccleston, Parr, Dentons Green and Windle.">
 
-    <link rel="canonical" href="https://autosafetycentre.com/sthelens.php">
+    <link rel="canonical" href="https://autosafetycentre.co.uk/sthelens.php">
 
     <!-- Open Graph -->
-    <meta property="og:title" content="MOT St Helens | Auto Safety Centre WA10">
-    <meta property="og:description" content="DVSA-approved MOTs, Continental tyres, servicing and repairs at Auto Safety Centre St Helens. Covering all areas within 5 miles of WA10.">
-    <meta property="og:url" content="https://autosafetycentre.com/sthelens.php">
+    <meta property="og:title" content="MOT St Helens | Tyres, Servicing & Repairs WA10">
+    <meta property="og:description" content="Local MOT testing, tyres, car servicing and repairs at Auto Safety Centre St Helens. Serving Sutton, Thatto Heath, Eccleston, Parr, Dentons Green, Peasley Cross, Fingerpost, Windle and West Park.">
+    <meta property="og:url" content="https://autosafetycentre.co.uk/sthelens.php">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Auto Safety Centre">
-    <meta property="og:image" content="https://autosafetycentre.com/assets/og-sthelens.jpg">
-
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="MOT St Helens | Auto Safety Centre WA10">
-    <meta name="twitter:description" content="MOTs, Continental tyres, servicing and repairs at our St Helens depot. Covering all areas within 5 miles.">
-    <meta name="twitter:image" content="https://autosafetycentre.com/assets/og-sthelens.jpg">
-
+    <meta property="og:image" content="https://autosafetycentre.co.uk/assets/og-sthelens.jpg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
@@ -35,7 +28,7 @@
       "@context": "https://schema.org",
       "@type": "AutoRepair",
       "name": "Auto Safety Centre St Helens",
-      "image": "https://autosafetycentre.com/assets/og-sthelens.jpg",
+      "image": "https://autosafetycentre.co.uk/assets/og-sthelens.jpg",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Lowe Street South",
@@ -62,18 +55,37 @@
         "West Park"
       ],
       "hasMap": "https://www.google.com/maps?q=Lowe+Street+South+St+Helens+WA10+2QU",
-      "url": "https://autosafetycentre.com/sthelens.php",
+      "url": "https://autosafetycentre.co.uk/sthelens.php",
       "telephone": "01744 300104",
       "openingHours": [
         "Mo-Fr 08:30-17:30",
         "Sa 08:30-13:00"
       ],
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "08:30",
+          "closes": "17:30"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "08:30",
+          "closes": "13:00"
+        }
+      ],
       "priceRange": "££",
       "sameAs": [
-        "https://www.facebook.com/autosafetycentre",
         "https://g.page/autosafetycentre-sthelens"
       ],
-      "description": "DVSA-approved MOT testing, Continental tyres, servicing, diagnostics and repairs for all makes and models within 5 miles of St Helens.",
+      "description": "DVSA-approved MOT testing, tyre fitting, car servicing, diagnostics and repairs in St Helens WA10, serving Sutton, Thatto Heath, Eccleston, Parr, Dentons Green, Peasley Cross, Fingerpost, Windle and West Park.",
       "makesOffer": [
         { "@type": "Service", "serviceType": "MOT Testing" },
         { "@type": "Service", "serviceType": "Tyre Fitting" },
@@ -89,6 +101,8 @@
 <body>
 <!-- Updated internal href links from .html to .php so links match the project files. -->
 <!-- Updated booking buttons to link to booking.php so customers open the Book My Garage widget page. -->
+<!-- Updated canonical, OG and schema URLs to use https://autosafetycentre.co.uk as the main site domain. -->
+<!-- Updated St Helens local SEO titles, descriptions, area text and schema for Sutton, Thatto Heath, Eccleston, Parr, Dentons Green, Peasley Cross, Fingerpost, Windle and West Park. -->
 
 <!-- FLOATING BRANCHES BLOCK -->
 <div class="position-fixed branch-column" style="top:220px; left:10px; z-index:1000;">
@@ -156,7 +170,7 @@
     <div class="position-absolute top-40 start-50 translate-middle text-center text-white"
          style="text-shadow: 0 0 10px rgba(0,0,0,0.8);">
         <h1 class="display-4 fw-bold">MOT Centre in St Helens</h1>
-        <p class="lead mt-2">Tyres • Servicing • Repairs • Diagnostics</p>
+        <p class="lead mt-2">MOT Testing • Tyres • Car Servicing • Repairs in St Helens WA10</p>
         <a href="booking.php" class="cta-btn mt-4">Book MOT St Helens</a>
     </div>
 </section>
@@ -164,12 +178,13 @@
 <!-- INTRO -->
 <section class="py-5">
     <div class="container">
-        <h2 class="fw-bold text-center mb-4">Your Local MOT, Tyre & Servicing Centre in St Helens</h2>
+        <h2 class="fw-bold text-center mb-4">MOT, Tyres, Servicing & Repairs in St Helens WA10</h2>
         <p class="lead text-center">
-            Auto Safety Centre St Helens provides DVSA‑approved MOT testing, expert tyre fitting with premium Continental tyres
-            (see our full <a href="tyres.php">tyre services</a>), full vehicle servicing and reliable repairs for all makes and models.
-            We also carry out all key MOT safety checks including brakes, suspension, emissions and lighting.
-            Located on Lowe Street South (WA10), we support drivers across St Helens, Sutton, Thatto Heath, Eccleston and all surrounding areas within a 5‑mile radius.
+            Auto Safety Centre St Helens provides DVSA‑approved MOT testing, expert tyre fitting,
+            car servicing, diagnostics and reliable vehicle repairs for drivers in St Helens WA10.
+            From MOT checks and replacement tyres to servicing, brakes, suspension, emissions and lighting,
+            our St Helens garage supports motorists across Sutton, Thatto Heath, Eccleston, Parr,
+            Dentons Green, Peasley Cross, Fingerpost, Windle and West Park.
             You can also visit our nearby <a href="haydock.php">Haydock depot</a> or our <a href="prescot.php">Prescot branch</a>.
         </p>
     </div>
@@ -190,11 +205,12 @@
 <!-- AREAS WE SERVE -->
 <section class="py-5 bg-light">
     <div class="container">
-        <h2 class="fw-bold text-center mb-4">Areas We Serve (Within 5 Miles)</h2>
+        <h2 class="fw-bold text-center mb-4">Areas We Serve Near St Helens</h2>
         <p class="text-center">
-            We proudly support motorists across St Helens and nearby areas including Sutton, Thatto Heath, Eccleston, Parr,
-            Dentons Green, Peasley Cross, Fingerpost, Windle, West Park and the town centre.
-            Our depot is ideally positioned for fast MOTs, tyre fitting and servicing for all WA10 and surrounding postcodes.
+            We proudly support motorists across St Helens, Sutton, Thatto Heath, Eccleston, Parr,
+            Dentons Green, Peasley Cross, Fingerpost, Windle and West Park. Our depot is ideally
+            positioned for MOT testing, tyre fitting, car servicing, diagnostics and repairs for WA10
+            drivers and nearby local communities.
         </p>
     </div>
 </section>

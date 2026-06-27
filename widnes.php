@@ -6,26 +6,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>MOT Widnes | Tyres, Servicing & Repairs | Auto Safety Centre WA8</title>
+    <title>MOT Widnes | Tyres, Servicing & Repairs | Auto Safety Centre</title>
 
-    <meta name="description" content="Auto Safety Centre Widnes (WA8). DVSA-approved MOT testing, Continental tyres, servicing, diagnostics and repairs. Serving Widnes, Runcorn, Halton and surrounding areas. Book MOT Widnes today.">
+    <meta name="description" content="MOT testing, tyres, servicing and repairs in Widnes WA8. Serving Runcorn, Halton, Ditton, Appleton and Farnworth.">
 
-<link rel="canonical" href="https://autosafetycentre.com/widnes.php">
+<link rel="canonical" href="https://autosafetycentre.co.uk/widnes.php">
 
     <!-- Open Graph -->
-    <meta property="og:title" content="MOT Widnes | Auto Safety Centre WA8">
-    <meta property="og:description" content="DVSA-approved MOTs, Continental tyres, servicing and repairs at Auto Safety Centre Widnes. Covering all areas within 5 miles of WA8.">
-<meta property="og:url" content="https://autosafetycentre.com/widnes.php">
+    <meta property="og:title" content="MOT Widnes | Tyres, Servicing & Repairs WA8">
+    <meta property="og:description" content="Local MOT testing, tyres, car servicing and repairs at Auto Safety Centre Widnes. Serving Widnes, Runcorn, Halton, Ditton, Appleton and Farnworth.">
+<meta property="og:url" content="https://autosafetycentre.co.uk/widnes.php">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Auto Safety Centre">
-    <meta property="og:image" content="https://autosafetycentre.com/assets/og-widnes.jpg">
-
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="MOT Widnes | Auto Safety Centre WA8">
-    <meta name="twitter:description" content="MOTs, Continental tyres, servicing and repairs at our Widnes depot. Covering all areas within 5 miles.">
-    <meta name="twitter:image" content="https://autosafetycentre.com/assets/og-widnes.jpg">
-
+    <meta property="og:image" content="https://autosafetycentre.co.uk/assets/og-widnes.jpg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
@@ -35,13 +28,13 @@
       "@context": "https://schema.org",
       "@type": "AutoRepair",
       "name": "Auto Safety Centre Widnes",
-      "image": "https://autosafetycentre.com/assets/og-widnes.jpg",
+      "image": "https://autosafetycentre.co.uk/assets/og-widnes.jpg",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Widnes Depot",
+        "streetAddress": "Unit 2a, Everite Road Industrial Estate, Westgate, Everite Road",
         "addressLocality": "Widnes",
         "addressRegion": "Cheshire",
-        "postalCode": "WA8",
+        "postalCode": "WA8 8RA",
         "addressCountry": "UK"
       },
       "geo": {
@@ -57,17 +50,38 @@
         "Appleton",
         "Farnworth"
       ],
-      "hasMap": "https://www.google.com/maps?q=Auto+Safety+Centre+Widnes",
-    "url": "https://autosafetycentre.com/widnes.php",
+      "hasMap": "https://www.google.com/maps?q=Unit+2a+Everite+Road+Industrial+Estate+Westgate+Everite+Road+Widnes+WA8+8RA",
+    "url": "https://autosafetycentre.co.uk/widnes.php",
       "telephone": "0151 532 0201",
       "openingHours": [
         "Mo-Fr 08:30-17:30",
         "Sa 08:30-13:00"
       ],
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "08:30",
+          "closes": "17:30"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "08:30",
+          "closes": "13:00"
+        }
+      ],
       "priceRange": "££",
-      "description": "DVSA-approved MOT testing, Continental tyres, servicing, diagnostics and repairs for all makes and models within 5 miles of Widnes.",
+      "description": "DVSA-approved MOT testing, tyre fitting, car servicing, diagnostics and repairs in Widnes WA8, serving Runcorn, Halton, Ditton, Appleton and Farnworth.",
       "makesOffer": [
-        { "@type": "Service", "serviceType": "MOT Testing" },
+        { "@type": "Service", "serviceType": "Class 4 MOT Testing" },
+        { "@type": "Service", "serviceType": "Class 7 MOT Testing" },
         { "@type": "Service", "serviceType": "Tyre Fitting" },
         { "@type": "Service", "serviceType": "Vehicle Servicing" },
         { "@type": "Service", "serviceType": "Diagnostics" },
@@ -81,6 +95,8 @@
 <body>
 <!-- Updated internal and metadata links from .html to .php so links match the project files. -->
 <!-- Updated booking buttons to link to booking.php so customers open the Book My Garage widget page. -->
+<!-- Updated canonical, OG and schema URLs to use https://autosafetycentre.co.uk as the main site domain. -->
+<!-- Updated Widnes local SEO titles, descriptions, area text and schema for Widnes, Runcorn, Halton, Ditton, Appleton and Farnworth. -->
 
 <!-- FLOATING BRANCHES BLOCK -->
 <div class="position-fixed branch-column" style="top:220px; left:10px; z-index:1000;">
@@ -136,7 +152,7 @@
     <div class="ratio ratio-16x9 position-relative">
 
         <iframe 
-            src="https://www.google.com/maps?q=Auto+Safety+Centre+Widnes&output=embed"
+            src="https://www.google.com/maps?q=Unit+2a+Everite+Road+Industrial+Estate+Westgate+Everite+Road+Widnes+WA8+8RA&output=embed"
             style="border:0; width:100%; height:100%; opacity:0; transition:opacity 3.8s ease;"
             loading="lazy"
             onload="this.style.opacity='1'">
@@ -147,7 +163,7 @@
     <div class="position-absolute top-40 start-50 translate-middle text-center text-white"
          style="text-shadow: 0 0 10px rgba(0,0,0,0.8);">
         <h1 class="display-4 fw-bold">MOT Centre in Widnes</h1>
-        <p class="lead mt-2">Tyres • Servicing • Repairs • Diagnostics</p>
+        <p class="lead mt-2">MOT Testing • Tyres • Car Servicing • Repairs in Widnes WA8</p>
         <a href="booking.php" class="cta-btn mt-4">Book MOT Widnes</a>
     </div>
 </section>
@@ -156,12 +172,12 @@
 <!-- INTRO -->
 <section class="py-5">
     <div class="container">
-        <h2 class="fw-bold text-center mb-4">Your Local MOT, Tyre & Servicing Centre in Widnes</h2>
+        <h2 class="fw-bold text-center mb-4">MOT, Tyres, Servicing & Repairs in Widnes WA8</h2>
         <p class="lead text-center">
-            Auto Safety Centre Widnes provides DVSA‑approved MOT testing, expert tyre fitting with premium Continental tyres
-            (see our full <a href="tyres.php">tyre services</a>), full vehicle servicing and reliable repairs for all makes and models.
-            We also carry out all key MOT safety checks including brakes, suspension, emissions and lighting.
-            Located in Widnes (WA8), we support drivers across Widnes, Runcorn, Halton and all surrounding areas within a 5‑mile radius.
+            Auto Safety Centre Widnes provides DVSA‑approved MOT testing, expert tyre fitting,
+            car servicing, diagnostics and reliable vehicle repairs for drivers in Widnes WA8.
+            From MOT checks and replacement tyres to servicing, brakes, suspension, emissions and lighting,
+            our Widnes garage supports motorists across Runcorn, Halton, Ditton, Appleton and Farnworth.
             You can also visit our nearby <a href="haydock.php">Haydock depot</a> or our flagship <a href="sthelens.php">St Helens depot</a>.
         </p>
     </div>
@@ -183,11 +199,11 @@
 <!-- AREAS WE SERVE -->
 <section class="py-5 bg-light">
     <div class="container">
-        <h2 class="fw-bold text-center mb-4">Areas We Serve (Within 5 Miles)</h2>
+        <h2 class="fw-bold text-center mb-4">Areas We Serve Near Widnes</h2>
         <p class="text-center">
-            We proudly support motorists across Widnes and nearby areas including Runcorn, Halton,
-            Ditton, Appleton and Farnworth.
-            Our depot is ideally positioned for fast MOTs, tyre fitting and servicing for all WA8 and surrounding postcodes.
+            We proudly support motorists across Widnes, Runcorn, Halton, Ditton, Appleton and Farnworth.
+            Our depot is ideally positioned for MOT testing, tyre fitting, car servicing, diagnostics
+            and repairs for WA8 drivers and nearby local communities.
         </p>
     </div>
 </section>
@@ -203,9 +219,10 @@
                     <p><strong>Email:</strong> <a href="mailto:widnes@autosafetycentre.com">widnes@autosafetycentre.com</a></p>
                     <p><strong>Address:</strong><br>
                         Auto Safety Centre Widnes<br>
-                        Widnes Depot<br>
+                        Unit 2a, Everite Road Industrial Estate<br>
+                        Westgate, Everite Road<br>
                         Widnes<br>
-                        WA8
+                        WA8 8RA
                     </p>
                 </div>
             </div>
@@ -250,7 +267,7 @@
                 <div class="service-card">
                     <h4 class="fw-bold">MOT Testing</h4>
                     <p>
-                        We carry out DVSA-approved MOT tests for Class 4 vehicles including cars and small vans.
+                        We carry out DVSA-approved MOT tests for Class 4 and Class 7 vehicles, including cars, small vans and eligible larger vans.
                         Our MOT bay provides fast, accurate inspections with clear guidance on advisories or failures.
                     </p>
                     <p><a href="mot.php">Learn more about MOT testing</a></p>
@@ -420,7 +437,7 @@
     <div class="container">
         <h2 class="fw-bold text-center mb-4">How to Find Us</h2>
         <p class="text-center">
-            Our depot is located in Widnes (WA8), close to the town centre and the Silver Jubilee Bridge.
+            Our depot is located at Unit 2a, Everite Road Industrial Estate, Westgate, Everite Road, Widnes WA8 8RA.
             We are easily accessible from Runcorn, Halton, Ditton, Appleton and surrounding areas.
         </p>
     </div>

@@ -6,43 +6,50 @@
 
     <title>Book MOT or Service Online | Auto Safety Centre</title>
     <meta name="description" content="Book your MOT or car service online with Auto Safety Centre. Choose your nearest depot and get an instant price through our Book My Garage online booking widget.">
-    <link rel="canonical" href="https://autosafetycentre.com/booking.php">
+    <link rel="canonical" href="https://autosafetycentre.co.uk/booking.php">
 
     <meta property="og:title" content="Book MOT or Service Online | Auto Safety Centre">
     <meta property="og:description" content="Book your MOT or car service online with Auto Safety Centre. Choose your depot and get an instant price.">
-    <meta property="og:url" content="https://autosafetycentre.com/booking.php">
+    <meta property="og:url" content="https://autosafetycentre.co.uk/booking.php">
     <meta property="og:type" content="website">
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta property="og:image" content="https://autosafetycentre.co.uk/assets/og-home.jpg">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/widget.css" rel="stylesheet">
 
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "AutoRepair",
-      "name": "Auto Safety Centre Online Booking",
-      "url": "https://autosafetycentre.com/booking.php",
-      "areaServed": [
-        "St Helens",
-        "Haydock",
-        "Widnes",
-        "Prescot",
-        "Ormskirk"
-      ],
-      "serviceType": [
-        "MOT testing",
-        "Car servicing",
-        "Vehicle repairs",
-        "Tyres"
-      ]
+      "@type": "WebPage",
+      "name": "Book MOT or Service Online",
+      "url": "https://autosafetycentre.co.uk/booking.php",
+      "description": "Online booking page for MOT testing and car servicing at Auto Safety Centre branches.",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Auto Safety Centre",
+        "url": "https://autosafetycentre.co.uk/"
+      },
+      "about": {
+        "@type": "Service",
+        "name": "Online MOT and Service Booking",
+        "provider": {
+          "@type": "Organization",
+          "name": "Auto Safety Centre",
+          "url": "https://autosafetycentre.co.uk/"
+        },
+        "areaServed": [
+          "St Helens",
+          "Haydock",
+          "Widnes",
+          "Prescot",
+          "Ormskirk"
+        ]
+      }
     }
     </script>
 </head>
 
 <body>
-<!-- Added booking.php as a dedicated Book My Garage widget page for all booking calls to action. -->
-
 <!-- FLOATING BRANCHES BLOCK -->
 <div class="position-fixed branch-column" style="top:140px; left:10px; z-index:1000;">
     <div class="bg-light p-3 shadow rounded text-center">
@@ -124,6 +131,19 @@
     </div>
 </section>
 
+<!-- BOOKING OPTIONS -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <h2 class="fw-bold text-center mb-4">What You Can Book Online</h2>
+        <p class="lead text-center">
+            Use the booking widget to choose your nearest Auto Safety Centre branch and book MOT testing or car servicing online.
+        </p>
+        <p class="text-center">
+            St Helens, Haydock, Widnes, Prescot and Ormskirk are available in the booking process. Class 7 MOT appointments are available at Haydock and Widnes only.
+        </p>
+    </div>
+</section>
+
 <!-- SUPPORTING CONTENT -->
 <section class="py-5">
     <div class="container">
@@ -153,7 +173,7 @@
 <!-- FOOTER -->
 <footer class="text-white py-4">
     <div class="container text-center">
-        <p class="mb-1">© Auto Safety Centre 2025</p>
+        <p class="mb-1">&copy; Auto Safety Centre 2025</p>
         <p class="small">MOT | Tyres | Servicing | Repairs</p>
     </div>
 </footer>
