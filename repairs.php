@@ -57,6 +57,8 @@
 
 <body>
 <!-- Updated internal and metadata links from .html to .php so links match the project files. -->
+<!-- Updated booking buttons to link to booking.php so customers open the Book My Garage widget page. -->
+<!-- Removed repair booking buttons and added a depot appointment title above the main repairs content. -->
 
 <!-- LEFT‑SIDE BRANCH COLUMN -->
 <div class="position-fixed branch-column" style="top:140px; left:10px; z-index:1000;">
@@ -113,13 +115,13 @@ style="background-image:
         <h1 class="display-4 fw-bold">Auto Safety Centre</h1>
         <h2>Full Range of Repairs</h2>
         <p class="lead mt-3">Brakes, clutches, suspension and diagnostics for all makes and models</p>
-        <a href="#" class="cta-btn mt-4">Call to Check Availability</a>
     </div>
 </section>
 
 <!-- INTRO -->
 <section class="py-5">
     <div class="container">
+        <h2 class="fw-bold text-center mb-3">Call the Depot for an appointment</h2>
         <h2 class="fw-bold text-center mb-4">Reliable Repairs You Can Trust</h2>
         <p class="lead text-center">
             From warning lights to unusual noises, our experienced technicians diagnose and repair all makes and models.
@@ -167,15 +169,6 @@ style="background-image:
             <li>✔ Six convenient locations</li>
             <li>✔ Trusted by thousands of local drivers</li>
         </ul>
-    </div>
-</section>
-
-<!-- CTA -->
-<section class="py-5 bg-dark text-white text-center">
-    <div class="container">
-        <h2 class="fw-bold mb-3">Need a Repair?</h2>
-        <p class="mb-4">Book your repair or speak to a technician today.</p>
-        <a href="#" class="cta-btn">Book Now</a>
     </div>
 </section>
 

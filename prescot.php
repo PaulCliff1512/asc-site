@@ -84,6 +84,7 @@
 
 <body>
 <!-- Updated internal href links from .html to .php so links match the project files. -->
+<!-- Updated booking buttons to link to booking.php so customers open the Book My Garage widget page. -->
 
 <!-- FLOATING BRANCHES BLOCK -->
 <div class="position-fixed branch-column" style="top:220px; left:10px; z-index:1000;">
@@ -152,7 +153,7 @@
          style="text-shadow: 0 0 10px rgba(0,0,0,0.8);">
         <h1 class="display-4 fw-bold">MOT Centre in Prescot</h1>
         <p class="lead mt-2">Tyres • Servicing • Repairs • Diagnostics</p>
-        <a href="tel:01515320532" class="cta-btn mt-4">Book MOT Prescot</a>
+        <a href="booking.php" class="cta-btn mt-4">Book MOT Prescot</a>
     </div>
 </section>
 
@@ -178,7 +179,7 @@
             Our DVSA‑approved MOT test price is <strong>from £34.99</strong>.
             Fast, reliable MOT testing with same‑day appointments available.
         </p>
-        <a href="tel:01515320532" class="cta-btn">Book MOT Prescot</a>
+    <a href="booking.php" class="cta-btn">Book MOT Prescot</a>
     </div>
 </section>
 

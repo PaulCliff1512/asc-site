@@ -120,6 +120,10 @@
 
 <body>
 <!-- Updated internal and metadata links from .html to .php so links match the project files. -->
+<!-- Updated booking buttons to link to booking.php so customers open the Book My Garage widget page. -->
+<!-- Updated tyre availability buttons to jump to the depot phone number section for direct stock enquiries. -->
+<!-- Updated tyre availability button text to clearly tell customers to call a depot. -->
+<!-- Removed the hero tyre availability button and added a depot call title above the main tyre content. -->
 
 <!-- LEFT COLUMN -->
 <div class="position-fixed branch-column" style="top:140px; left:10px; z-index:1000;">
@@ -175,13 +179,13 @@ style="background-image:
     <div class="container">
         <h1 class="display-4 fw-bold">Tyres Supplied & Fitted</h1>
         <p class="lead mt-3">Budget, mid‑range and premium tyres for all makes and models</p>
-        <a href="#" class="cta-btn mt-4">Check Tyre Availability</a>
     </div>
 </section>
 
 <!-- INTRO -->
-<section class="py-5">
+<section id="tyre-depots" class="py-5">
     <div class="container">
+        <h2 class="fw-bold text-center mb-3">Call the Depot for the best Tyre prices now</h2>
         <h2 class="fw-bold text-center mb-4">Quality Tyres at Competitive Prices</h2>
         <p class="lead text-center">
             We supply and fit tyres for every budget and driving style. From premium performance tyres to reliable mid‑range options and affordable budget tyres, our technicians help you choose the perfect fit.
@@ -352,8 +356,8 @@ style="background-image:
 <section class="py-5 bg-dark text-white text-center">
     <div class="container">
         <h2 class="fw-bold mb-3">Need New Tyres?</h2>
-        <p class="mb-4">Call your nearest branch or check tyre availability online.</p>
-        <a href="#" class="cta-btn">Check Tyres</a>
+        <p class="mb-4">Call your nearest branch to check tyre availability.</p>
+        <a href="#tyre-depots" class="cta-btn">Call Depot for Tyre Availability</a>
     </div>
 </section>
 

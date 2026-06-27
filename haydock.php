@@ -60,7 +60,7 @@
       ],
       "hasMap": "https://www.google.com/maps?q=Vicarage+Road+Haydock+WA11+0UJ",
     "url": "https://autosafetycentre.com/haydock.php",
-      "telephone": "01744 453252",
+    "telephone": "01744 300103",
       "openingHours": [
         "Mo-Fr 08:30-17:30",
         "Sa 08:30-13:00"
@@ -85,6 +85,8 @@
 
 <body>
 <!-- Updated internal and metadata links from .html to .php so links match the project files. -->
+<!-- Updated Haydock phone number from 01744 453252 to 01744 300103 so all Haydock contact details match. -->
+<!-- Updated booking buttons to link to booking.php so customers open the Book My Garage widget page. -->
 
 <!-- FLOATING BRANCHES BLOCK -->
 <div class="position-fixed branch-column" style="top:220px; left:10px; z-index:1000;">
@@ -154,7 +156,7 @@
          style="text-shadow: 0 0 10px rgba(0,0,0,0.8);">
         <h1 class="display-4 fw-bold">MOT Centre in Haydock</h1>
         <p class="lead mt-2">Tyres • Servicing • Repairs • Diagnostics</p>
-        <a href="tel:01744453252" class="cta-btn mt-4">Book MOT Haydock</a>
+        <a href="booking.php" class="cta-btn mt-4">Book MOT Haydock</a>
     </div>
 </section>
 
@@ -180,7 +182,7 @@
             Our DVSA‑approved MOT test price is <strong>from £34.99</strong>.
             Fast, reliable MOT testing with same‑day appointments available.
         </p>
-        <a href="tel:01744453252" class="cta-btn">Book MOT Haydock</a>
+    <a href="booking.php" class="cta-btn">Book MOT Haydock</a>
     </div>
 </section>
 
@@ -203,7 +205,7 @@
             <div class="col-md-6">
                 <div class="service-card">
                     <h4 class="fw-bold">Contact Details</h4>
-                    <p><strong>Phone:</strong> <a href="tel:01744453252">01744 453252</a></p>
+        <p><strong>Phone:</strong> <a href="tel:01744300103">01744 300103</a></p>
                     <p><strong>Email:</strong> <a href="mailto:haydock@autosafetycentre.com">haydock@autosafetycentre.com</a></p>
                     <p><strong>Address:</strong><br>
                         Auto Safety Centre Haydock<br>
@@ -572,8 +574,8 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 <div class="d-lg-none position-fixed bottom-0 start-0 end-0 bg-dark text-white text-center py-2" style="z-index:9999;">
-    <a href="tel:+441744453252" class="text-white fw-bold" style="font-size:1.2rem;">
-        Call Us: 01744 453252
+    <a href="tel:+441744300103" class="text-white fw-bold" style="font-size:1.2rem;">
+        Call Us: 01744 300103
     </a>
 </div>
 

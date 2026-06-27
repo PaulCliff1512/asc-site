@@ -104,6 +104,7 @@
 
 <body>
 <!-- Updated internal and metadata links from .html to .php so links match the project files. -->
+<!-- Updated booking buttons to link to booking.php so customers open the Book My Garage widget page. -->
 
 <!-- LEFT COLUMN -->
 <div class="position-fixed branch-column" style="top:140px; left:10px; z-index:1000;">
@@ -159,7 +160,7 @@ style="background-image:
     <div class="container">
         <h1 class="display-4 fw-bold">Car Servicing You Can Trust</h1>
         <p class="lead mt-3">Interim, full and major servicing for all makes and models</p>
-        <a href="#" class="cta-btn mt-4">Book Your Service</a>
+        <a href="booking.php" class="cta-btn mt-4">Book Your Service</a>
     </div>
 </section>
 
@@ -231,7 +232,7 @@ style="background-image:
     <div class="container">
         <h2 class="fw-bold mb-3">Book Your Service Today</h2>
         <p class="mb-4">Choose your nearest branch and keep your vehicle in top condition.</p>
-        <a href="#" class="cta-btn">Book Now</a>
+        <a href="booking.php" class="cta-btn">Book Now</a>
     </div>
 </section>
 

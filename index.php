@@ -37,6 +37,7 @@
 
 <body>
 <!-- Updated internal href links from .html to .php so links match the project files. -->
+<!-- Updated booking button to link to booking.php so customers open the Book My Garage widget page. -->
 
 <!-- LEFT‑SIDE BRANCH COLUMN -->
 <!-- CHANGE: removed d-none d-md-block so it becomes visible on mobile -->
@@ -99,7 +100,7 @@
         <p class="lead mt-3">
             Every Auto Safety Centre branch serves drivers within a 3–4 mile radius of its location, ensuring fast, convenient and truly local garage services wherever you are in Merseyside.
         </p>
-        <a href="mot.php" class="cta-btn mt-4">Book Your MOT and Service</a>
+        <a href="booking.php" class="cta-btn mt-4">Book Your MOT and Service</a>
     </div>
 </section>
 

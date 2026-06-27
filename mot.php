@@ -108,6 +108,7 @@
 
 <body>
 <!-- Updated internal and metadata links from .html to .php so links match the project files. -->
+<!-- Updated booking button to link to booking.php so customers open the Book My Garage widget page. -->
 
 <!-- LEFT COLUMN -->
 <div class="position-fixed branch-column" style="top:140px; left:10px; z-index:1000;">
@@ -261,7 +262,7 @@ style="background-image:
     <div class="container">
         <h2 class="fw-bold mb-3">Book Your MOT Today</h2>
         <p class="mb-4">Choose your nearest branch and secure your appointment in minutes.</p>
-        <a href="#" class="cta-btn">Book Now</a>
+        <a href="booking.php" class="cta-btn">Book Now</a>
     </div>
 </section>
 
